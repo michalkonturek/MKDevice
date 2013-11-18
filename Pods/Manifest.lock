@@ -1,0 +1,17 @@
+PODS:
+  - LINQ4Obj-C (1.0.1)
+  - MKFoundation (0.3.4):
+    - LINQ4Obj-C (>= 1.0.0)
+
+DEPENDENCIES:
+  - MKFoundation (from `https://github.com/michalkonturek/MKFoundation.git`)
+
+EXTERNAL SOURCES:
+  MKFoundation:
+    :git: https://github.com/michalkonturek/MKFoundation.git
+
+SPEC CHECKSUMS:
+  LINQ4Obj-C: f67a9c672ac74e00b14559502fa828c124e758d2
+  MKFoundation: 130eafb19ede2ef875c167c1889f1f30ebe7812e
+
+COCOAPODS: 0.28.0
