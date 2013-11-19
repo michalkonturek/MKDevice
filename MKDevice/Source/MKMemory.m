@@ -22,11 +22,13 @@
  http://stackoverflow.com/questions/787160/programmatically-retrieve-memory-usage-on-iphone
  
  http://support.apple.com/kb/TS2419
+ 
+ http://stackoverflow.com/questions/1563935/how-to-display-iphone-free-memory-and-how-to-free-iphone-memory?lq=1
  */
 
 + (void)initialize {
-    NSLog(@"Free: %@", [self freeMemory]);
-    NSLog(@"Total: %@", [self totalMemory]);
+//    NSLog(@"Free: %@", [self freeMemory]);
+//    NSLog(@"Total: %@", [self totalMemory]);
 }
 
 + (NSNumber *)activeMemory {
@@ -69,7 +71,6 @@
 //    return mem_free;
 //}
 
-
 + (NSNumber *)totalMemory {
     id total_bytes = @([[NSProcessInfo processInfo] physicalMemory]);
     id total_kilobytes = [total_bytes MK_divideBy:@1024];
@@ -77,7 +78,16 @@
 }
 
 + (NSNumber *)usedMemory {
-    METHOD_NOT_IMPLEMENTED
+    double usedMemory = 0.00;
+    vm_statistics_data_t vmStats;
+    mach_msg_type_number_t infoCount = HOST_VM_INFO_COUNT;
+    kern_return_t kernReturn = host_statistics(mach_host_self(), HOST_VM_INFO, (host_info_t)&vmStats, &infoCount);
+    if(kernReturn != KERN_SUCCESS) {
+        return @0;
+    }
+    usedMemory = ((vm_page_size * (vmStats.active_count + vmStats.inactive_count + vmStats.wire_count)) / 1024) / 1024;
+    
+    return @(usedMemory);
 }
 
 + (NSNumber *)wiredMemory {

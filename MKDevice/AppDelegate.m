@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "MKMemory.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -16,7 +16,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
  
-    [[MKMemory alloc] init];
+    self.window.rootViewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
