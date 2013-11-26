@@ -10,4 +10,6 @@
 
 @interface MKDevice : NSObject
 
++ (BOOL)isJailbroken;
+
 @end
