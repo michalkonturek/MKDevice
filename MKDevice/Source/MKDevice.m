@@ -8,7 +8,22 @@
 
 #import "MKDevice.h"
 
+#import <AudioToolbox/AudioToolbox.h>
+#import <ExternalAccessory/ExternalAccessory.h>
+
 @implementation MKDevice
+
++ (BOOL)hasAnyAccessoryConnected {
+    return ([self connectedAccessoriesCount] != 0);
+}
+
++ (NSInteger)connectedAccessoriesCount {
+    return [[self connectedAccessories] count];
+}
+
++ (NSArray *)connectedAccessories {
+    return [[EAAccessoryManager sharedAccessoryManager] connectedAccessories];
+}
 
 + (BOOL)isJailbroken {
     
