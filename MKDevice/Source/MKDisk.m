@@ -13,7 +13,7 @@
 @implementation MKDisk
 
 + (NSNumber *)usedDiskSpaceInBytes {
-    return [[self totalDiskSpaceInBytes] MK_subtract:[self totalDiskSpaceInBytes]];
+    return [[self totalDiskSpaceInBytes] MK_subtract:[self freeDiskSpaceInBytes]];
 }
 
 + (NSNumber *)freeDiskSpaceInBytes {
@@ -34,25 +34,5 @@
     
     return attributes;
 }
-
-
-
-//+ (NSNumber *)getFreeDiskspace {
-//    
-//    NSError *error = nil;
-//    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-//    NSDictionary *attributes = [[NSFileManager defaultManager]
-//                                attributesOfFileSystemForPath:[paths lastObject] error: &error];
-//    
-//    if (!attributes) return @-1;
-//    
-//    NSNumber *fileSystemSizeInBytes = [attributes objectForKey:NSFileSystemSize];
-//    NSNumber *freeFileSystemSizeInBytes = [attributes objectForKey:NSFileSystemFreeSize];
-//    
-//    NSLog(@"Total: %@ Free: %@", fileSystemSizeInBytes, freeFileSystemSizeInBytes);
-//    
-//    return freeFileSystemSizeInBytes;
-//}
-
 
 @end
