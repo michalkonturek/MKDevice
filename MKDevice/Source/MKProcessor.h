@@ -15,4 +15,6 @@
 + (NSInteger)activeProcessorCount;
 + (NSInteger)processorCount;
 
++ (CGFloat)usageCPU;
+
 @end

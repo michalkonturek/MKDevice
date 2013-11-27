@@ -11,6 +11,7 @@
 #import "MKMemory.h"
 #import "MKDisk.h"
 #import "MKProcessInfo.h"
+#import "MKProcessor.h"
 
 @interface ViewController ()
 
@@ -36,12 +37,12 @@
     NSLog(@"Disk Used: %@", [MKDisk usedDiskSpaceInBytes]);
     
     NSLog(@"Active Processes: %@", @([MKProcessInfo activeProcessesCount]));
-    for (MKProcessInfo *process in [MKProcessInfo activeProcesses]) {
-        NSLog(@"%@ : %@", process.ID, process.name);
-    }
+//    for (MKProcessInfo *process in [MKProcessInfo activeProcesses]) {
+//        NSLog(@"%@ : %@", process.ID, process.name);
+//    }
     
-    NSProcessInfo
+    NSLog(@"App CPU usage: %@", [MKProcessor appUsageCPU]);
+    NSLog(@"App CPU usage: %@", @([MKProcessor usageCPU]));
 }
-
 
 @end
