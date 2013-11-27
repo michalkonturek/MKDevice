@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 #import "MKMemory.h"
+#import "MKDisk.h"
 
 @interface ViewController ()
 
@@ -16,31 +17,23 @@
 
 @implementation ViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)onAction:(id)sender {
-    NSLog(@"Free: %@", [MKMemory freeMemory]);
-    NSLog(@"Used: %@", [MKMemory usedMemory]);
-    NSLog(@"Total: %@", [MKMemory totalMemory]);
+    NSLog(@"Memory Free: %@", [MKMemory freeMemory]);
+    NSLog(@"Memory Used: %@", [MKMemory usedMemory]);
+    NSLog(@"Memory Total: %@", [MKMemory totalMemory]);
+    
+    NSLog(@"Disk Total: %@", [MKDisk totalDiskSpaceInBytes]);
+    NSLog(@"Disk Free: %@", [MKDisk freeDiskSpaceInBytes]);
+    NSLog(@"Disk Used: %@", [MKDisk usedDiskSpaceInBytes]);
 }
+
 
 @end

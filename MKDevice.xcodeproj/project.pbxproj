@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7584704D00AA49E2A68DF141 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7652010CF9A3483CBE9583DB /* libPods.a */; };
+		903E0F9C18468DAC0066B085 /* MKDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = 903E0F9B18468DAC0066B085 /* MKDisk.m */; };
 		9086BBC1184527690034E692 /* MKProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086BBC0184527690034E692 /* MKProcessor.m */; };
 		9086BBC4184529870034E692 /* MKProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086BBC3184529870034E692 /* MKProcess.m */; };
 		90DD11AA183A828300184B8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD11A8183A828300184B8C /* ViewController.m */; };
@@ -41,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		7652010CF9A3483CBE9583DB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		903E0F9A18468DAC0066B085 /* MKDisk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDisk.h; sourceTree = "<group>"; };
+		903E0F9B18468DAC0066B085 /* MKDisk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDisk.m; sourceTree = "<group>"; };
 		9086BBBF184527690034E692 /* MKProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKProcessor.h; sourceTree = "<group>"; };
 		9086BBC0184527690034E692 /* MKProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKProcessor.m; sourceTree = "<group>"; };
 		9086BBC2184529870034E692 /* MKProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKProcess.h; sourceTree = "<group>"; };
@@ -189,6 +192,8 @@
 				90DD11AD183BBDF300184B8C /* MKCarrier.m */,
 				90F23E3D183A52F2009C86E5 /* MKDevice.h */,
 				90F23E3E183A52F2009C86E5 /* MKDevice.m */,
+				903E0F9A18468DAC0066B085 /* MKDisk.h */,
+				903E0F9B18468DAC0066B085 /* MKDisk.m */,
 				90F23E40183A5342009C86E5 /* MKMemory.h */,
 				90F23E41183A5342009C86E5 /* MKMemory.m */,
 				9086BBC2184529870034E692 /* MKProcess.h */,
@@ -337,6 +342,7 @@
 				9086BBC1184527690034E692 /* MKProcessor.m in Sources */,
 				9086BBC4184529870034E692 /* MKProcess.m in Sources */,
 				90DD11AE183BBDF300184B8C /* MKCarrier.m in Sources */,
+				903E0F9C18468DAC0066B085 /* MKDisk.m in Sources */,
 				90DD11AA183A828300184B8C /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
