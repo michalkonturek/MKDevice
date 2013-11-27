@@ -13,16 +13,16 @@
 
 @implementation MKDevice
 
-+ (BOOL)hasAnyAccessoryConnected {
-    return ([self connectedAccessoriesCount] != 0);
-}
-
 + (NSInteger)connectedAccessoriesCount {
     return [[self connectedAccessories] count];
 }
 
 + (NSArray *)connectedAccessories {
     return [[EAAccessoryManager sharedAccessoryManager] connectedAccessories];
+}
+
++ (BOOL)hasAnyAccessoryConnected {
+    return ([self connectedAccessoriesCount] != 0);
 }
 
 + (BOOL)isJailbroken {

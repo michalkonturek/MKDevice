@@ -15,11 +15,8 @@
 + (BOOL)allowsVOIP;
 
 + (NSString *)carrierName;
-
 + (NSString *)isoCountryCode;
-
 + (NSString *)mobileCountryCode;
-
 + (NSString *)mobileNetworkCode;
 
 @end

@@ -10,10 +10,10 @@
 
 @interface MKDevice : NSObject
 
-+ (BOOL)hasAnyAccessoryConnected;
 + (NSInteger)connectedAccessoriesCount;
 + (NSArray *)connectedAccessories;
 
++ (BOOL)hasAnyAccessoryConnected;
 + (BOOL)isJailbroken;
 
 @end
