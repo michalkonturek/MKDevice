@@ -1,5 +1,5 @@
 //
-//  MKProcess.h
+//  MKProcessInfo.h
 //  MKDevice
 //
 //  Created by Michal Konturek on 26/11/2013.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MKProcess : NSObject
+@interface MKProcessInfo : NSObject
 
 + (NSArray *)activeProcesses;
 + (NSInteger)activeProcessesCount;

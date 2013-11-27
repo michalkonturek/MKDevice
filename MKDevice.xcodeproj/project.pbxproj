@@ -10,7 +10,7 @@
 		7584704D00AA49E2A68DF141 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7652010CF9A3483CBE9583DB /* libPods.a */; };
 		903E0F9C18468DAC0066B085 /* MKDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = 903E0F9B18468DAC0066B085 /* MKDisk.m */; };
 		9086BBC1184527690034E692 /* MKProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086BBC0184527690034E692 /* MKProcessor.m */; };
-		9086BBC4184529870034E692 /* MKProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086BBC3184529870034E692 /* MKProcess.m */; };
+		9086BBC4184529870034E692 /* MKProcessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086BBC3184529870034E692 /* MKProcessInfo.m */; };
 		90DD11AA183A828300184B8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD11A8183A828300184B8C /* ViewController.m */; };
 		90DD11AB183A828300184B8C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90DD11A9183A828300184B8C /* ViewController.xib */; };
 		90DD11AE183BBDF300184B8C /* MKCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD11AD183BBDF300184B8C /* MKCarrier.m */; };
@@ -46,8 +46,8 @@
 		903E0F9B18468DAC0066B085 /* MKDisk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDisk.m; sourceTree = "<group>"; };
 		9086BBBF184527690034E692 /* MKProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKProcessor.h; sourceTree = "<group>"; };
 		9086BBC0184527690034E692 /* MKProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKProcessor.m; sourceTree = "<group>"; };
-		9086BBC2184529870034E692 /* MKProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKProcess.h; sourceTree = "<group>"; };
-		9086BBC3184529870034E692 /* MKProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKProcess.m; sourceTree = "<group>"; };
+		9086BBC2184529870034E692 /* MKProcessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKProcessInfo.h; sourceTree = "<group>"; };
+		9086BBC3184529870034E692 /* MKProcessInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKProcessInfo.m; sourceTree = "<group>"; };
 		90DD11A7183A828300184B8C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		90DD11A8183A828300184B8C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		90DD11A9183A828300184B8C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
@@ -196,8 +196,8 @@
 				903E0F9B18468DAC0066B085 /* MKDisk.m */,
 				90F23E40183A5342009C86E5 /* MKMemory.h */,
 				90F23E41183A5342009C86E5 /* MKMemory.m */,
-				9086BBC2184529870034E692 /* MKProcess.h */,
-				9086BBC3184529870034E692 /* MKProcess.m */,
+				9086BBC2184529870034E692 /* MKProcessInfo.h */,
+				9086BBC3184529870034E692 /* MKProcessInfo.m */,
 				9086BBBF184527690034E692 /* MKProcessor.h */,
 				9086BBC0184527690034E692 /* MKProcessor.m */,
 			);
@@ -340,7 +340,7 @@
 				90F23E42183A5342009C86E5 /* MKMemory.m in Sources */,
 				90F23E19183A513F009C86E5 /* main.m in Sources */,
 				9086BBC1184527690034E692 /* MKProcessor.m in Sources */,
-				9086BBC4184529870034E692 /* MKProcess.m in Sources */,
+				9086BBC4184529870034E692 /* MKProcessInfo.m in Sources */,
 				90DD11AE183BBDF300184B8C /* MKCarrier.m in Sources */,
 				903E0F9C18468DAC0066B085 /* MKDisk.m in Sources */,
 				90DD11AA183A828300184B8C /* ViewController.m in Sources */,

@@ -1,21 +1,21 @@
 //
-//  MKProcess.m
+//  MKProcessInfo.m
 //  MKDevice
 //
 //  Created by Michal Konturek on 26/11/2013.
 //  Copyright (c) 2013 Michal Konturek. All rights reserved.
 //
 
-#import "MKProcess.h"
+#import "MKProcessInfo.h"
 
 #import <mach/mach.h>
 #import <sys/sysctl.h>
 
 #import "MKMacros.h"
-#import "MKProcess.h"
+#import "MKProcessInfo.h"
 
 
-@implementation MKProcess
+@implementation MKProcessInfo
 
 + (NSArray *)activeProcesses {
     int mib[4] = {CTL_KERN, KERN_PROC, KERN_PROC_ALL, 0};
@@ -49,7 +49,7 @@
                     NSString *processID = [NSString stringWithFormat:@"%d", process[i].kp_proc.p_pid];
                     NSString *processName = [NSString stringWithFormat:@"%s", process[i].kp_proc.p_comm];
                     
-                    MKProcess *process = [MKProcess  createWithID:processID
+                    MKProcessInfo *process = [MKProcessInfo  createWithID:processID
                                                          withName:processName];
                     [result addObject:process];
                 }
