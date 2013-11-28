@@ -14,6 +14,7 @@
 		90DD11AA183A828300184B8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD11A8183A828300184B8C /* ViewController.m */; };
 		90DD11AB183A828300184B8C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90DD11A9183A828300184B8C /* ViewController.xib */; };
 		90DD11AE183BBDF300184B8C /* MKCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD11AD183BBDF300184B8C /* MKCarrier.m */; };
+		90F07B571847F7F100649F05 /* MKBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F07B561847F7F100649F05 /* MKBattery.m */; };
 		90F23E0D183A513F009C86E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F23E0C183A513F009C86E5 /* Foundation.framework */; };
 		90F23E0F183A513F009C86E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F23E0E183A513F009C86E5 /* CoreGraphics.framework */; };
 		90F23E11183A513F009C86E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F23E10183A513F009C86E5 /* UIKit.framework */; };
@@ -53,6 +54,8 @@
 		90DD11A9183A828300184B8C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		90DD11AC183BBDF300184B8C /* MKCarrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCarrier.h; sourceTree = "<group>"; };
 		90DD11AD183BBDF300184B8C /* MKCarrier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCarrier.m; sourceTree = "<group>"; };
+		90F07B551847F7F100649F05 /* MKBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBattery.h; sourceTree = "<group>"; };
+		90F07B561847F7F100649F05 /* MKBattery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBattery.m; sourceTree = "<group>"; };
 		90F23E09183A513F009C86E5 /* MKDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F23E0C183A513F009C86E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90F23E0E183A513F009C86E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -188,6 +191,8 @@
 		90F23E3C183A5262009C86E5 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				90F07B551847F7F100649F05 /* MKBattery.h */,
+				90F07B561847F7F100649F05 /* MKBattery.m */,
 				90DD11AC183BBDF300184B8C /* MKCarrier.h */,
 				90DD11AD183BBDF300184B8C /* MKCarrier.m */,
 				90F23E3D183A52F2009C86E5 /* MKDevice.h */,
@@ -336,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90F23E1D183A513F009C86E5 /* AppDelegate.m in Sources */,
+				90F07B571847F7F100649F05 /* MKBattery.m in Sources */,
 				90F23E3F183A52F2009C86E5 /* MKDevice.m in Sources */,
 				90F23E42183A5342009C86E5 /* MKMemory.m in Sources */,
 				90F23E19183A513F009C86E5 /* main.m in Sources */,
