@@ -10,4 +10,13 @@
 
 @interface MKBattery : NSObject
 
++ (void)enableBatteryMonitoring;
++ (void)disableBatteryMonitoring;
+
++ (BOOL)isCharging;
++ (BOOL)isConnectedToPower;
++ (BOOL)isFullyCharged;
+
++ (NSNumber *)powerLevel;
+
 @end
