@@ -11,6 +11,7 @@
 		903E0F9C18468DAC0066B085 /* MKDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = 903E0F9B18468DAC0066B085 /* MKDisk.m */; };
 		9086BBC1184527690034E692 /* MKProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086BBC0184527690034E692 /* MKProcessor.m */; };
 		9086BBC4184529870034E692 /* MKProcessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086BBC3184529870034E692 /* MKProcessInfo.m */; };
+		908E3FF118490FF900392CD8 /* MKBattery+RemainingTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 908E3FF018490FF900392CD8 /* MKBattery+RemainingTime.m */; };
 		90DD11AA183A828300184B8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD11A8183A828300184B8C /* ViewController.m */; };
 		90DD11AB183A828300184B8C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90DD11A9183A828300184B8C /* ViewController.xib */; };
 		90DD11AE183BBDF300184B8C /* MKCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD11AD183BBDF300184B8C /* MKCarrier.m */; };
@@ -49,6 +50,8 @@
 		9086BBC0184527690034E692 /* MKProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKProcessor.m; sourceTree = "<group>"; };
 		9086BBC2184529870034E692 /* MKProcessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKProcessInfo.h; sourceTree = "<group>"; };
 		9086BBC3184529870034E692 /* MKProcessInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKProcessInfo.m; sourceTree = "<group>"; };
+		908E3FEF18490FF900392CD8 /* MKBattery+RemainingTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKBattery+RemainingTime.h"; sourceTree = "<group>"; };
+		908E3FF018490FF900392CD8 /* MKBattery+RemainingTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKBattery+RemainingTime.m"; sourceTree = "<group>"; };
 		90DD11A7183A828300184B8C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		90DD11A8183A828300184B8C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		90DD11A9183A828300184B8C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
@@ -193,6 +196,8 @@
 			children = (
 				90F07B551847F7F100649F05 /* MKBattery.h */,
 				90F07B561847F7F100649F05 /* MKBattery.m */,
+				908E3FEF18490FF900392CD8 /* MKBattery+RemainingTime.h */,
+				908E3FF018490FF900392CD8 /* MKBattery+RemainingTime.m */,
 				90DD11AC183BBDF300184B8C /* MKCarrier.h */,
 				90DD11AD183BBDF300184B8C /* MKCarrier.m */,
 				90F23E3D183A52F2009C86E5 /* MKDevice.h */,
@@ -341,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90F23E1D183A513F009C86E5 /* AppDelegate.m in Sources */,
+				908E3FF118490FF900392CD8 /* MKBattery+RemainingTime.m in Sources */,
 				90F07B571847F7F100649F05 /* MKBattery.m in Sources */,
 				90F23E3F183A52F2009C86E5 /* MKDevice.m in Sources */,
 				90F23E42183A5342009C86E5 /* MKMemory.m in Sources */,
