@@ -28,7 +28,7 @@
     METHOD_NOT_IMPLEMENTED
 }
 
-- (NSNumber *)estimatedRemaininMinutesForTalkTime3G {
+- (NSNumber *)estimatedRemainingMinutesForTalkTime3G {
     METHOD_NOT_IMPLEMENTED
 }
 
@@ -36,45 +36,45 @@
     METHOD_NOT_IMPLEMENTED
 }
 
-- (NSNumber *)estimatedRemainingMinutesForAudioPlaybackViaBluetooth {
-    METHOD_NOT_IMPLEMENTED
-}
+//- (NSNumber *)estimatedRemainingMinutesForAudioPlaybackViaBluetooth {
+//    METHOD_NOT_IMPLEMENTED
+//}
 
 - (NSNumber *)estimatedRemainingMinutesForVideoPlayback {
     METHOD_NOT_IMPLEMENTED
 }
 
-- (NSNumber *)estimatedRemainingMinutesForYouTube {
-    METHOD_NOT_IMPLEMENTED
-}
+//- (NSNumber *)estimatedRemainingMinutesForYouTube {
+//    METHOD_NOT_IMPLEMENTED
+//}
+//
+//- (NSNumber *)estimatedRemainingMinutesForReading {
+//    METHOD_NOT_IMPLEMENTED
+//}
 
-- (NSNumber *)estimatedRemainingMinutesForReading {
-    METHOD_NOT_IMPLEMENTED
-}
-
-- (NSNumber *)estimatedRemainingMinutesForPhotoTaking {
-    METHOD_NOT_IMPLEMENTED
-}
-
-- (NSNumber *)estimatedRemainingMinutesForVideoRecording {
-    METHOD_NOT_IMPLEMENTED
-}
-
-- (NSNumber *)estimatedRemainingMinutesFor2DGame {
-    METHOD_NOT_IMPLEMENTED
-}
-
-- (NSNumber *)estimatedRemainingMinutesFor3DGame {
-    METHOD_NOT_IMPLEMENTED
-}
-
-- (NSNumber *)estimatedRemainingMinutesForGPSNavigation {
-    METHOD_NOT_IMPLEMENTED
-}
-
-- (NSNumber *)estimatedRemainingMinutesForLEDTorch {
-    METHOD_NOT_IMPLEMENTED
-}
+//- (NSNumber *)estimatedRemainingMinutesForPhotoTaking {
+//    METHOD_NOT_IMPLEMENTED
+//}
+//
+//- (NSNumber *)estimatedRemainingMinutesForVideoRecording {
+//    METHOD_NOT_IMPLEMENTED
+//}
+//
+//- (NSNumber *)estimatedRemainingMinutesFor2DGame {
+//    METHOD_NOT_IMPLEMENTED
+//}
+//
+//- (NSNumber *)estimatedRemainingMinutesFor3DGame {
+//    METHOD_NOT_IMPLEMENTED
+//}
+//
+//- (NSNumber *)estimatedRemainingMinutesForGPSNavigation {
+//    METHOD_NOT_IMPLEMENTED
+//}
+//
+//- (NSNumber *)estimatedRemainingMinutesForLEDTorch {
+//    METHOD_NOT_IMPLEMENTED
+//}
 
 - (NSNumber *)estimatedRemainingMinutesForStandby {
     METHOD_NOT_IMPLEMENTED

@@ -15,22 +15,22 @@
 
 - (NSNumber *)estimatedRemainingMinutesForFaceTime;
 - (NSNumber *)estimatedRemainingMinutesForTalkTime2G;
-- (NSNumber *)estimatedRemaininMinutesForTalkTime3G;
+- (NSNumber *)estimatedRemainingMinutesForTalkTime3G;
 
 - (NSNumber *)estimatedRemainingMinutesForAudioPlayback;
-- (NSNumber *)estimatedRemainingMinutesForAudioPlaybackViaBluetooth;
+//- (NSNumber *)estimatedRemainingMinutesForAudioPlaybackViaBluetooth;
 - (NSNumber *)estimatedRemainingMinutesForVideoPlayback;
-- (NSNumber *)estimatedRemainingMinutesForYouTube;
-- (NSNumber *)estimatedRemainingMinutesForReading;
+//- (NSNumber *)estimatedRemainingMinutesForYouTube;
+//- (NSNumber *)estimatedRemainingMinutesForReading;
 
-- (NSNumber *)estimatedRemainingMinutesForPhotoTaking;
-- (NSNumber *)estimatedRemainingMinutesForVideoRecording;
+//- (NSNumber *)estimatedRemainingMinutesForPhotoTaking;
+//- (NSNumber *)estimatedRemainingMinutesForVideoRecording;
 
-- (NSNumber *)estimatedRemainingMinutesFor2DGame;
-- (NSNumber *)estimatedRemainingMinutesFor3DGame;
+//- (NSNumber *)estimatedRemainingMinutesFor2DGame;
+//- (NSNumber *)estimatedRemainingMinutesFor3DGame;
 
-- (NSNumber *)estimatedRemainingMinutesForGPSNavigation;
-- (NSNumber *)estimatedRemainingMinutesForLEDTorch;
+//- (NSNumber *)estimatedRemainingMinutesForGPSNavigation;
+//- (NSNumber *)estimatedRemainingMinutesForLEDTorch;
 - (NSNumber *)estimatedRemainingMinutesForStandby;
 
 @end

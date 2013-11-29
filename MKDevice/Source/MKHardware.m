@@ -79,8 +79,6 @@
 }
 
 
-
-
 /*
  NOTE: There is a new arlogirthm for system detection.
  source: http://stackoverflow.com/questions/7620229/how-can-i-get-iphone-device-type
