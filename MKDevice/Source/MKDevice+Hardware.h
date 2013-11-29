@@ -39,7 +39,6 @@ typedef enum _MKDeviceFamily {
 + (MKDeviceType)deviceType;
 + (NSString *)deviceTypeString;
 
-
 + (NSString *)platformString;
 
 @end
