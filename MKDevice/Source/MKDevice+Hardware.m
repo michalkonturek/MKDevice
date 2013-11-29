@@ -1,17 +1,17 @@
 //
-//  MKHardware.m
+//  MKDevice+Hardware.m
 //  MKDevice
 //
 //  Created by Michal Konturek on 29/11/2013.
 //  Copyright (c) 2013 Michal Konturek. All rights reserved.
 //
 
-#import "MKHardware.h"
+#import "MKDevice+Hardware.h"
 
 #include <sys/types.h>
 #include <sys/sysctl.h>
 
-@implementation MKHardware
+@implementation MKDevice (Hardware)
 
 + (MKDeviceFamily)deviceFamily {
     NSString *modelIdentifier = [self deviceTypeString];
@@ -48,7 +48,7 @@
 
 + (NSString *)deviceTypeString {
     NSString *platform = [self platformString];
-
+    
     if ([platform isEqualToString:@"iPhone1,1"])    return @"iPhone 1G";
     if ([platform isEqualToString:@"iPhone1,2"])    return @"iPhone 3G";
     if ([platform isEqualToString:@"iPhone2,1"])    return @"iPhone 3GS";
@@ -93,5 +93,6 @@
     free(machine);
     return platform;
 }
+
 
 @end

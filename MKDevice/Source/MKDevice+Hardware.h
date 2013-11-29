@@ -1,12 +1,12 @@
 //
-//  MKHardware.h
+//  MKDevice+Hardware.h
 //  MKDevice
 //
 //  Created by Michal Konturek on 29/11/2013.
 //  Copyright (c) 2013 Michal Konturek. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "MKDevice.h"
 
 typedef enum _MKDeviceType {
     MKDeviceTypeUnknown,
@@ -33,9 +33,13 @@ typedef enum _MKDeviceFamily {
     MKDeviceFamilyPod
 } MKDeviceFamily;
 
+@interface MKDevice (Hardware)
 
-@interface MKHardware : NSObject
++ (MKDeviceFamily)deviceFamily;
++ (MKDeviceType)deviceType;
++ (NSString *)deviceTypeString;
 
 
++ (NSString *)platformString;
 
 @end
