@@ -10,4 +10,27 @@
 
 @interface MKBattery (RemainingTime)
 
+- (NSNumber *)estimatedRemainingMinutesForInternetOnWiFi;
+- (NSNumber *)estimatedRemainingMinutesForInternetOn3G;
+
+- (NSNumber *)estimatedRemainingMinutesForFaceTime;
+- (NSNumber *)estimatedRemainingMinutesForTalkTime2G;
+- (NSNumber *)estimatedRemaininMinutesForTalkTime3G;
+
+- (NSNumber *)estimatedRemainingMinutesForAudioPlayback;
+- (NSNumber *)estimatedRemainingMinutesForAudioPlaybackViaBluetooth;
+- (NSNumber *)estimatedRemainingMinutesForVideoPlayback;
+- (NSNumber *)estimatedRemainingMinutesForYouTube;
+- (NSNumber *)estimatedRemainingMinutesForReading;
+
+- (NSNumber *)estimatedRemainingMinutesForPhotoTaking;
+- (NSNumber *)estimatedRemainingMinutesForVideoRecording;
+
+- (NSNumber *)estimatedRemainingMinutesFor2DGame;
+- (NSNumber *)estimatedRemainingMinutesFor3DGame;
+
+- (NSNumber *)estimatedRemainingMinutesForGPSNavigation;
+- (NSNumber *)estimatedRemainingMinutesForLEDTorch;
+- (NSNumber *)estimatedRemainingMinutesForStandby;
+
 @end
