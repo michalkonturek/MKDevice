@@ -27,12 +27,22 @@
     [super tearDown];
 }
 
-- (void)test_modelForID_returns_iPhone5s {
+- (void)test_modelForID_returns_iPhone5s_when_ID_iPhone61 {
     id identifier = @"iPhone6,1";
     id expected = @"iPhone 5s";
     
     id model = [MKDeviceModel modelForID:identifier];
-    id result = [model modelName];
+    id result = [model name];
+    
+    assertThat(result, equalTo(expected));
+}
+
+- (void)test_modelForID_returns_iPhone5s_when_ID_iPhone62 {
+    id identifier = @"iPhone6,2";
+    id expected = @"iPhone 5s";
+    
+    id model = [MKDeviceModel modelForID:identifier];
+    id result = [model name];
     
     assertThat(result, equalTo(expected));
 }

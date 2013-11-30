@@ -27,8 +27,11 @@ static NSMutableArray *models = nil;
 }
 
 + (instancetype)modelForID:(NSString *)ID {
-    return [models MK_match:^BOOL(id item) {
-        return [[item modelID] isEqualToString:ID];
+    return [models MK_match:^BOOL(id model) {
+        id result = [[model identifiers] MK_match:^BOOL(id item) {
+            return [item isEqualToString:ID];
+        }];
+        return (result != nil);
     }];
 }
 
@@ -38,8 +41,8 @@ static NSMutableArray *models = nil;
 
 - (instancetype)initWithJSON:(id)json {
     if (self = [super init]) {
-        _modelID = [json objectForKey:@"modelID"];
-        _modelName = [json objectForKey:@"modelName"];
+        _identifiers = [json objectForKey:@"identifiers"];
+        _name = [json objectForKey:@"name"];
         
         _chipCPU = [json objectForKey:@"chipCPU"];
         _chipGPU = [json objectForKey:@"chipGPU"];

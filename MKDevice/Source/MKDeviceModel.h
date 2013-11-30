@@ -13,8 +13,8 @@
 + (instancetype)createWithJSON:(id)json;
 + (instancetype)modelForID:(NSString *)ID;
 
-@property (nonatomic, strong) NSString *modelID;
-@property (nonatomic, strong) NSString *modelName;
+@property (nonatomic, strong) NSArray *identifiers;
+@property (nonatomic, strong) NSString *name;
 
 @property (nonatomic, strong) NSString *chipCPU;
 @property (nonatomic, strong) NSString *chipGPU;
