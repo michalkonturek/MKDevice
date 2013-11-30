@@ -10,10 +10,26 @@
 
 #import "MKMacro_Method.h"
 
+#import "NSArray+MK_Block.h"
+
+static NSMutableArray *models = nil;
+
 @implementation MKDeviceModel
 
 + (void)initialize {
+    if (!models) models = [NSMutableArray array];
+ 
+    id path = [[NSBundle mainBundle] URLForResource:@"iPhone61" withExtension:@"json"];
+    id data = [NSData dataWithContentsOfURL:path];
     
+    id json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    [models addObject:[self createWithJSON:json]];
+}
+
++ (instancetype)modelForID:(NSString *)ID {
+    return [models MK_match:^BOOL(id item) {
+        return [[item modelID] isEqualToString:ID];
+    }];
 }
 
 + (instancetype)createWithJSON:(id)json {
@@ -26,19 +42,19 @@
         _modelName = [json objectForKey:@"modelName"];
         
         _chipCPU = [json objectForKey:@"chipCPU"];
-        _chipGPU = [json objectForKey:@"KEY"];
+        _chipGPU = [json objectForKey:@"chipGPU"];
         
-        _batteryTimeForAudioPlayback = [json objectForKey:@"KEY"];
-        _batteryTimeForVideoPlayback = [json objectForKey:@"KEY"];
-        _batteryTimeForStandby = [json objectForKey:@"KEY"];
+        _batteryTimeForAudioPlayback = [json objectForKey:@"batteryTimeForAudioPlayback"];
+        _batteryTimeForVideoPlayback = [json objectForKey:@"batteryTimeForVideoPlayback"];
+        _batteryTimeForStandby = [json objectForKey:@"batteryTimeForStandby"];
         
-        _batteryTimeForInternetOn3G = [json objectForKey:@"KEY"];
-        _batteryTimeForInternetOnLTE = [json objectForKey:@"KEY"];
-        _batteryTimeForInternetOnWiFi = [json objectForKey:@"KEY"];
+        _batteryTimeForInternetOn3G = [json objectForKey:@"batteryTimeForInternetOn3G"];
+        _batteryTimeForInternetOnLTE = [json objectForKey:@"batteryTimeForInternetOnLTE"];
+        _batteryTimeForInternetOnWiFi = [json objectForKey:@"batteryTimeForInternetOnWiFi"];
         
-        _batteryTimeForTalkOn2G = [json objectForKey:@"KEY"];
-        _batteryTimeForTalkOn3G = [json objectForKey:@"KEY"];
-        _batteryTimeForTalkOnLTE = [json objectForKey:@"KEY"];
+        _batteryTimeForTalkOn2G = [json objectForKey:@"batteryTimeForTalkOn2G"];
+        _batteryTimeForTalkOn3G = [json objectForKey:@"batteryTimeForTalkOn3G"];
+        _batteryTimeForTalkOnLTE = [json objectForKey:@"batteryTimeForTalkOnLTE"];
     }
     
     return self;

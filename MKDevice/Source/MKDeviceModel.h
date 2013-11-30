@@ -11,6 +11,7 @@
 @interface MKDeviceModel : NSObject
 
 + (instancetype)createWithJSON:(id)json;
++ (instancetype)modelForID:(NSString *)ID;
 
 @property (nonatomic, strong) NSString *modelID;
 @property (nonatomic, strong) NSString *modelName;
@@ -29,7 +30,6 @@
 @property (nonatomic, strong) NSNumber *batteryTimeForTalkOn2G;
 @property (nonatomic, strong) NSNumber *batteryTimeForTalkOn3G;
 @property (nonatomic, strong) NSNumber *batteryTimeForTalkOnLTE;
-
 
 - (instancetype)initWithJSON:(id)json;
 

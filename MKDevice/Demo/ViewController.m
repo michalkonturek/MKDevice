@@ -43,6 +43,8 @@
     
     NSLog(@"App CPU usage: %@", [MKProcessor appUsageCPU]);
     NSLog(@"App CPU usage: %@", @([MKProcessor usageCPU]));
+    
+    
 }
 
 @end
