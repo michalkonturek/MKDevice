@@ -27,7 +27,7 @@
     [super tearDown];
 }
 
-- (void)test_modelForID_returns_iPhone61 {
+- (void)test_modelForID_returns_iPhone5s {
     id identifier = @"iPhone6,1";
     id expected = @"iPhone 5s";
     
@@ -36,9 +36,5 @@
     
     assertThat(result, equalTo(expected));
 }
-
-//- (void)testExample {
-//    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-//}
 
 @end

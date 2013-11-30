@@ -19,7 +19,7 @@ static NSMutableArray *models = nil;
 + (void)initialize {
     if (!models) models = [NSMutableArray array];
  
-    id path = [[NSBundle mainBundle] URLForResource:@"iPhone61" withExtension:@"json"];
+    id path = [[NSBundle mainBundle] URLForResource:@"iPhone5s" withExtension:@"json"];
     id data = [NSData dataWithContentsOfURL:path];
     
     id json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
