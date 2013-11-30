@@ -10,8 +10,8 @@
 
 @interface MKBattery (RemainingTime)
 
-- (NSNumber *)estimatedRemainingMinutesForInternetOnWiFi;
 - (NSNumber *)estimatedRemainingMinutesForInternetOn3G;
+- (NSNumber *)estimatedRemainingMinutesForInternetOnWiFi;
 
 - (NSNumber *)estimatedRemainingMinutesForFaceTime;
 - (NSNumber *)estimatedRemainingMinutesForTalkTime2G;

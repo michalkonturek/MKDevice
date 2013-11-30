@@ -12,11 +12,11 @@
 
 @implementation MKBattery (RemainingTime)
 
-- (NSNumber *)estimatedRemainingMinutesForInternetOnWiFi {
+- (NSNumber *)estimatedRemainingMinutesForInternetOn3G {
     METHOD_NOT_IMPLEMENTED
 }
 
-- (NSNumber *)estimatedRemainingMinutesForInternetOn3G {
+- (NSNumber *)estimatedRemainingMinutesForInternetOnWiFi {
     METHOD_NOT_IMPLEMENTED
 }
 

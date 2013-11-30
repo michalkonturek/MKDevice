@@ -10,4 +10,27 @@
 
 @interface MKDeviceModel : NSObject
 
++ (instancetype)createWithJSON:(id)json;
+
+@property (nonatomic, strong) NSString *modelID;
+@property (nonatomic, strong) NSString *modelName;
+
+@property (nonatomic, strong) NSString *chipCPU;
+@property (nonatomic, strong) NSString *chipGPU;
+
+@property (nonatomic, strong) NSNumber *batteryTimeForAudioPlayback;
+@property (nonatomic, strong) NSNumber *batteryTimeForVideoPlayback;
+@property (nonatomic, strong) NSNumber *batteryTimeForStandby;
+
+@property (nonatomic, strong) NSNumber *batteryTimeForInternetOn3G;
+@property (nonatomic, strong) NSNumber *batteryTimeForInternetOnLTE;
+@property (nonatomic, strong) NSNumber *batteryTimeForInternetOnWiFi;
+
+@property (nonatomic, strong) NSNumber *batteryTimeForTalkOn2G;
+@property (nonatomic, strong) NSNumber *batteryTimeForTalkOn3G;
+@property (nonatomic, strong) NSNumber *batteryTimeForTalkOnLTE;
+
+
+- (instancetype)initWithJSON:(id)json;
+
 @end
