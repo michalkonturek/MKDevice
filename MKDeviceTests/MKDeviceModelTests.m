@@ -8,27 +8,37 @@
 
 #import <XCTest/XCTest.h>
 
+#define HC_SHORTHAND
+#import <OCHamcrest.h>
+
+#import "MKDeviceModel.h"
+
 @interface MKDeviceModelTests : XCTestCase
 
 @end
 
 @implementation MKDeviceModelTests
 
-- (void)setUp
-{
+- (void)setUp {
     [super setUp];
-    // Put setup code here; it will be run once, before the first test case.
 }
 
-- (void)tearDown
-{
-    // Put teardown code here; it will be run once, after the last test case.
+- (void)tearDown {
     [super tearDown];
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+- (void)test_modelForID_returns_iPhone61 {
+    id identifier = @"iPhone6,1";
+    id expected = @"iPhone 5s";
+    
+    id model = [MKDeviceModel modelForID:identifier];
+    id result = [model modelName];
+    
+    assertThat(result, equalTo(expected));
 }
+
+//- (void)testExample {
+//    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+//}
 
 @end
