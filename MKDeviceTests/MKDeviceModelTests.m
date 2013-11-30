@@ -27,6 +27,16 @@
     [super tearDown];
 }
 
+- (void)test_modelForCode_returns_iPhone5s {
+    id input = @"iPhone5s";
+    id expected = @"iPhone 5s";
+    
+    id model = [MKDeviceModel modelForCode:input];
+    id result = [model name];
+    
+    assertThat(result, equalTo(expected));
+}
+
 - (void)test_modelForID_returns_iPhone5s_when_ID_iPhone61 {
     id identifier = @"iPhone6,1";
     id expected = @"iPhone 5s";

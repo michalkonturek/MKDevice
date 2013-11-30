@@ -11,10 +11,13 @@
 @interface MKDeviceModel : NSObject
 
 + (instancetype)createWithJSON:(id)json;
-+ (instancetype)modelForID:(NSString *)ID;
 
-@property (nonatomic, strong) NSArray *identifiers;
++ (instancetype)modelForID:(NSString *)ID;
++ (instancetype)modelForCode:(NSString *)code;
+
+@property (nonatomic, strong) NSString *code;
 @property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSArray *identifiers;
 
 @property (nonatomic, strong) NSString *chipCPU;
 @property (nonatomic, strong) NSString *chipGPU;

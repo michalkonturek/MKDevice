@@ -35,14 +35,21 @@ static NSMutableArray *models = nil;
     }];
 }
 
++ (instancetype)modelForCode:(NSString *)code {
+    return [models MK_match:^BOOL(MKDeviceModel *item) {
+        return [[item code] isEqualToString:code];
+    }];
+}
+
 + (instancetype)createWithJSON:(id)json {
     return [[self alloc] initWithJSON:json];
 }
 
 - (instancetype)initWithJSON:(id)json {
     if (self = [super init]) {
-        _identifiers = [json objectForKey:@"identifiers"];
+        _code = [json objectForKey:@"code"];
         _name = [json objectForKey:@"name"];
+        _identifiers = [json objectForKey:@"identifiers"];
         
         _chipCPU = [json objectForKey:@"chipCPU"];
         _chipGPU = [json objectForKey:@"chipGPU"];
