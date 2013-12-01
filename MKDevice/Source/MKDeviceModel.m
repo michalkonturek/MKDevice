@@ -19,7 +19,8 @@ static NSMutableArray *models = nil;
 + (void)initialize {
     if (!models) models = [NSMutableArray array];
     
-    NSArray *specs = @[@"iPhone4", @"iPhone4s", @"iPhone5", @"iPhone5c", @"iPhone5s"];
+    NSArray *specs = @[@"iPhone4", @"iPhone4s",
+                       @"iPhone5", @"iPhone5c", @"iPhone5s", @"Simulator", @"Unknown"];
     for (id spec in specs) {
         id path = [[NSBundle mainBundle] URLForResource:spec withExtension:@"json"];
         id data = [NSData dataWithContentsOfURL:path];
@@ -36,12 +37,22 @@ static NSMutableArray *models = nil;
 }
 
 + (instancetype)modelForIdentifier:(NSString *)identifier {
-    return [models MK_match:^BOOL(id model) {
+    id object = [models MK_match:^BOOL(id model) {
         id result = [[model identifiers] MK_match:^BOOL(id item) {
             return [item isEqualToString:identifier];
         }];
         return (result != nil);
     }];
+
+    return (object) ? object : [self unknown];
+}
+
++ (instancetype)simulator {
+    return [self modelForCode:@"Simulator"];
+}
+
++ (instancetype)unknown {
+    return [self modelForCode:@"Unknown"];
 }
 
 + (instancetype)createWithJSON:(id)json {
