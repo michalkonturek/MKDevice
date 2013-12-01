@@ -27,6 +27,16 @@
     [super tearDown];
 }
 
+//- (void)test_modelForCode_returns_iPhone4s {
+//    id input = @"iPhone4s";
+//    id expected = @"iPhone 4s";
+//    
+//    id model = [MKDeviceModel modelForCode:input];
+//    id result = [model name];
+//    
+//    assertThat(result, equalTo(expected));
+//}
+
 - (void)test_modelForCode_returns_iPhone5s {
     id input = @"iPhone5s";
     id expected = @"iPhone 5s";

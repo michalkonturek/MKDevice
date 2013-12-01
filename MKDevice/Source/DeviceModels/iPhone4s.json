@@ -1,0 +1,17 @@
+{
+    "code": "iPhone4s",
+    "name": "iPhone 4s",
+    "slogan": "The most amazing iPhone yet.",
+    "identifiers": [
+        "iPhone4,1"
+    ],
+    "chipCPU": "Apple A5, 800 MHz dual-core",
+    "chipGPU": "PowerVR SGX543MP2",
+    "batteryTimeForAudioPlayback": 40,
+    "batteryTimeForVideoPlayback": 10,
+    "batteryTimeForStandby": 200,
+    "batteryTimeForInternetOn3G": 6,
+    "batteryTimeForInternetOnLTE": 0,
+    "batteryTimeForInternetOnWiFi": 9,
+    "batteryTimeForTalkOn3G": 8,
+}
