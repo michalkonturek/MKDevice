@@ -1,0 +1,18 @@
+{
+    "code": "iPhone5",
+    "name": "iPhone 5",
+    "slogan": "Loving it is easy. That's why so many people do.",
+    "identifiers": [
+        "iPhone5,1",
+        "iPhone5,2"
+    ],
+    "chipCPU": "Apple A6, 1.2 GHz dual-core",
+    "chipGPU": "PowerVR SGX 543MP3 (triple-core graphics)",
+    "batteryTimeForAudioPlayback": 40,
+    "batteryTimeForVideoPlayback": 10,
+    "batteryTimeForStandby": 225,
+    "batteryTimeForInternetOn3G": 8,
+    "batteryTimeForInternetOnLTE": 8,
+    "batteryTimeForInternetOnWiFi": 10,
+    "batteryTimeForTalkOn3G": 8,
+}
