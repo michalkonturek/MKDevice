@@ -18,12 +18,15 @@ static NSMutableArray *models = nil;
 
 + (void)initialize {
     if (!models) models = [NSMutableArray array];
- 
-    id path = [[NSBundle mainBundle] URLForResource:@"iPhone5s" withExtension:@"json"];
-    id data = [NSData dataWithContentsOfURL:path];
     
-    id json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
-    [models addObject:[self createWithJSON:json]];
+    NSArray *specs = @[@"iPhone4", @"iPhone4s", @"iPhone5", @"iPhone5c", @"iPhone5s"];
+    for (id spec in specs) {
+        id path = [[NSBundle mainBundle] URLForResource:spec withExtension:@"json"];
+        id data = [NSData dataWithContentsOfURL:path];
+        
+        id json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+        [models addObject:[self createWithJSON:json]];
+    }
 }
 
 + (instancetype)modelForID:(NSString *)ID {
