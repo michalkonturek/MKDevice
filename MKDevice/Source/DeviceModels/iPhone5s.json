@@ -15,5 +15,4 @@
     "batteryTimeForInternetOnLTE": 10,
     "batteryTimeForInternetOnWiFi": 10,
     "batteryTimeForTalkOn3G": 10,
-    "batteryTimeForTalkOnLTE": 100
 }
