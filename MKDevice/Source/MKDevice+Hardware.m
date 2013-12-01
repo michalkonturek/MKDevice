@@ -21,9 +21,6 @@
     return MKDeviceFamilyUnknown;
 }
 
-/*
- TODO: Refactor this old code. Remove legacy devices.
- */
 + (MKDeviceModel *)deviceModel {
     NSString *identifier = [self modelIdentifier];
     return [MKDeviceModel modelForIdentifier:identifier];

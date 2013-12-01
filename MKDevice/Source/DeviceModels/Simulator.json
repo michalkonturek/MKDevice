@@ -1,0 +1,18 @@
+{
+    "code": "Simulator",
+    "name": "Simulator",
+    "slogan": "",
+    "identifiers": [
+        "i386",
+        "x86_64"
+    ],
+    "chipCPU": "",
+    "chipGPU": "",
+    "batteryTimeForAudioPlayback": 0,
+    "batteryTimeForVideoPlayback": 0,
+    "batteryTimeForStandby": 0,
+    "batteryTimeForInternetOn3G": 0,
+    "batteryTimeForInternetOnLTE": 0,
+    "batteryTimeForInternetOnWiFi": 0,
+    "batteryTimeForTalkOn3G": 0
+}
