@@ -1,0 +1,17 @@
+{
+    "code": "Unknown",
+    "name": "Unknown",
+    "slogan": "",
+    "identifiers": [
+        "Unknown"
+    ],
+    "chipCPU": "",
+    "chipGPU": "",
+    "batteryTimeForAudioPlayback": 0,
+    "batteryTimeForVideoPlayback": 0,
+    "batteryTimeForStandby": 0,
+    "batteryTimeForInternetOn3G": 0,
+    "batteryTimeForInternetOnLTE": 0,
+    "batteryTimeForInternetOnWiFi": 0,
+    "batteryTimeForTalkOn3G": 0
+}
