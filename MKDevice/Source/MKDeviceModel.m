@@ -62,9 +62,7 @@ static NSMutableArray *models = nil;
         _batteryTimeForInternetOnLTE = [json objectForKey:@"batteryTimeForInternetOnLTE"];
         _batteryTimeForInternetOnWiFi = [json objectForKey:@"batteryTimeForInternetOnWiFi"];
         
-        _batteryTimeForTalkOn2G = [json objectForKey:@"batteryTimeForTalkOn2G"];
         _batteryTimeForTalkOn3G = [json objectForKey:@"batteryTimeForTalkOn3G"];
-        _batteryTimeForTalkOnLTE = [json objectForKey:@"batteryTimeForTalkOnLTE"];
     }
     
     return self;

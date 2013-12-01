@@ -30,9 +30,7 @@
 @property (nonatomic, strong) NSNumber *batteryTimeForInternetOnLTE;
 @property (nonatomic, strong) NSNumber *batteryTimeForInternetOnWiFi;
 
-@property (nonatomic, strong) NSNumber *batteryTimeForTalkOn2G;
 @property (nonatomic, strong) NSNumber *batteryTimeForTalkOn3G;
-@property (nonatomic, strong) NSNumber *batteryTimeForTalkOnLTE;
 
 - (instancetype)initWithJSON:(id)json;
 

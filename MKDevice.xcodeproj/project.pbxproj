@@ -16,6 +16,7 @@
 		908E3FFD1849366A00392CD8 /* MKDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 908E3FFC1849366A00392CD8 /* MKDevice+Hardware.m */; };
 		908E4002184A1F4C00392CD8 /* iPhone5s.json in Resources */ = {isa = PBXBuildFile; fileRef = 908E4001184A1F4C00392CD8 /* iPhone5s.json */; };
 		908E4004184A966200392CD8 /* MKDeviceModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 908E4003184A966200392CD8 /* MKDeviceModelTests.m */; };
+		90A94496184AAEED001EE189 /* iPhone5c.json in Resources */ = {isa = PBXBuildFile; fileRef = 90A94495184AAEED001EE189 /* iPhone5c.json */; };
 		90DD11AA183A828300184B8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD11A8183A828300184B8C /* ViewController.m */; };
 		90DD11AB183A828300184B8C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90DD11A9183A828300184B8C /* ViewController.xib */; };
 		90DD11AE183BBDF300184B8C /* MKCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD11AD183BBDF300184B8C /* MKCarrier.m */; };
@@ -64,6 +65,7 @@
 		908E3FFC1849366A00392CD8 /* MKDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKDevice+Hardware.m"; sourceTree = "<group>"; };
 		908E4001184A1F4C00392CD8 /* iPhone5s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone5s.json; sourceTree = "<group>"; };
 		908E4003184A966200392CD8 /* MKDeviceModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDeviceModelTests.m; sourceTree = "<group>"; };
+		90A94495184AAEED001EE189 /* iPhone5c.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone5c.json; sourceTree = "<group>"; };
 		90DD11A7183A828300184B8C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		90DD11A8183A828300184B8C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		90DD11A9183A828300184B8C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		908E4000184A1F4C00392CD8 /* DeviceModels */ = {
 			isa = PBXGroup;
 			children = (
+				90A94495184AAEED001EE189 /* iPhone5c.json */,
 				908E4001184A1F4C00392CD8 /* iPhone5s.json */,
 			);
 			path = DeviceModels;
@@ -321,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90F23E17183A513F009C86E5 /* InfoPlist.strings in Resources */,
+				90A94496184AAEED001EE189 /* iPhone5c.json in Resources */,
 				90DD11AB183A828300184B8C /* ViewController.xib in Resources */,
 				90F23E1F183A513F009C86E5 /* Images.xcassets in Resources */,
 				908E4002184A1F4C00392CD8 /* iPhone5s.json in Resources */,
