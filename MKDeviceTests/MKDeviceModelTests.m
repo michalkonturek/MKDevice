@@ -47,7 +47,27 @@
 //    assertThat(result, equalTo(expected));
 //}
 
+- (void)test_modelForID_returns_iPhone4 {
+    NSArray *identifiers = @[@"iPhone3,1", @"iPhone3,2", @"iPhone3,3"];
+    id expected = @"iPhone 4";
+    
+    for (id identifier in identifiers) {
+        id model = [MKDeviceModel modelForID:identifier];
+        id result = [model name];
+        assertThat(result, equalTo(expected));
+    }
+}
 
+- (void)test_modelForID_returns_iPhone4s {
+    NSArray *identifiers = @[@"iPhone4,1"];
+    id expected = @"iPhone 4s";
+    
+    for (id identifier in identifiers) {
+        id model = [MKDeviceModel modelForID:identifier];
+        id result = [model name];
+        assertThat(result, equalTo(expected));
+    }
+}
 
 - (void)test_modelForID_returns_iPhone5 {
     NSArray *identifiers = @[@"iPhone5,1", @"iPhone5,2"];
