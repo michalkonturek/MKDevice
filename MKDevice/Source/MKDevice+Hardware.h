@@ -8,23 +8,25 @@
 
 #import "MKDevice.h"
 
-typedef enum _MKDeviceType {
-    MKDeviceTypeUnknown,
-    MKDeviceTypePhone1G,
-    MKDeviceTypePhone3G,
-    MKDeviceTypePhone3GS,
-    MKDeviceTypePhone4,
-    MKDeviceTypePhone4Verizon,
-    MKDeviceTypePodTouch1G,
-    MKDeviceTypePodTouch2G,
-    MKDeviceTypePodTouch3G,
-    MKDeviceTypePodTouch4G,
-    MKDeviceTypePad1,
-    MKDeviceTypePad2Wifi,
-    MKDeviceTypePad2GSM,
-    MKDeviceTypePad2CDMA,
-    MKDeviceTypeSimulator
-} MKDeviceType;
+#import "MKDeviceModel.h"
+
+//typedef enum _MKDeviceType {
+//    MKDeviceTypeUnknown,
+//    MKDeviceTypePhone1G,
+//    MKDeviceTypePhone3G,
+//    MKDeviceTypePhone3GS,
+//    MKDeviceTypePhone4,
+//    MKDeviceTypePhone4Verizon,
+//    MKDeviceTypePodTouch1G,
+//    MKDeviceTypePodTouch2G,
+//    MKDeviceTypePodTouch3G,
+//    MKDeviceTypePodTouch4G,
+//    MKDeviceTypePad1,
+//    MKDeviceTypePad2Wifi,
+//    MKDeviceTypePad2GSM,
+//    MKDeviceTypePad2CDMA,
+//    MKDeviceTypeSimulator
+//} MKDeviceType;
 
 typedef enum _MKDeviceFamily {
     MKDeviceFamilyUnknown,
@@ -36,9 +38,10 @@ typedef enum _MKDeviceFamily {
 @interface MKDevice (Hardware)
 
 + (MKDeviceFamily)deviceFamily;
-+ (MKDeviceType)deviceType;
++ (MKDeviceModel *)deviceModel;
+
 + (NSString *)deviceTypeString;
 
-+ (NSString *)platformString;
++ (NSString *)modelIdentifier;
 
 @end

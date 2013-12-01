@@ -29,18 +29,18 @@ static NSMutableArray *models = nil;
     }
 }
 
-+ (instancetype)modelForID:(NSString *)ID {
-    return [models MK_match:^BOOL(id model) {
-        id result = [[model identifiers] MK_match:^BOOL(id item) {
-            return [item isEqualToString:ID];
-        }];
-        return (result != nil);
-    }];
-}
-
 + (instancetype)modelForCode:(NSString *)code {
     return [models MK_match:^BOOL(MKDeviceModel *item) {
         return [[item code] isEqualToString:code];
+    }];
+}
+
++ (instancetype)modelForIdentifier:(NSString *)identifier {
+    return [models MK_match:^BOOL(id model) {
+        id result = [[model identifiers] MK_match:^BOOL(id item) {
+            return [item isEqualToString:identifier];
+        }];
+        return (result != nil);
     }];
 }
 

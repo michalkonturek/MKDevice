@@ -40,7 +40,7 @@
     id expected = @"iPhone 4";
     
     for (id identifier in identifiers) {
-        id model = [MKDeviceModel modelForID:identifier];
+        id model = [MKDeviceModel modelForIdentifier:identifier];
         id result = [model name];
         assertThat(result, equalTo(expected));
     }
@@ -51,7 +51,7 @@
     id expected = @"iPhone 4s";
     
     for (id identifier in identifiers) {
-        id model = [MKDeviceModel modelForID:identifier];
+        id model = [MKDeviceModel modelForIdentifier:identifier];
         id result = [model name];
         assertThat(result, equalTo(expected));
     }
@@ -62,7 +62,7 @@
     id expected = @"iPhone 5";
     
     for (id identifier in identifiers) {
-        id model = [MKDeviceModel modelForID:identifier];
+        id model = [MKDeviceModel modelForIdentifier:identifier];
         id result = [model name];
         assertThat(result, equalTo(expected));
     }
@@ -73,7 +73,7 @@
     id expected = @"iPhone 5c";
     
     for (id identifier in identifiers) {
-        id model = [MKDeviceModel modelForID:identifier];
+        id model = [MKDeviceModel modelForIdentifier:identifier];
         id result = [model name];
         assertThat(result, equalTo(expected));
     }
@@ -84,7 +84,7 @@
     id expected = @"iPhone 5s";
     
     for (id identifier in identifiers) {
-        id model = [MKDeviceModel modelForID:identifier];
+        id model = [MKDeviceModel modelForIdentifier:identifier];
         id result = [model name];
         assertThat(result, equalTo(expected));
     }

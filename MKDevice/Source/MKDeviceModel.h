@@ -12,8 +12,8 @@
 
 + (instancetype)createWithJSON:(id)json;
 
-+ (instancetype)modelForID:(NSString *)ID;
 + (instancetype)modelForCode:(NSString *)code;
++ (instancetype)modelForIdentifier:(NSString *)identifier;
 
 @property (nonatomic, strong) NSString *code;
 @property (nonatomic, strong) NSString *name;

@@ -24,30 +24,13 @@
 /*
  TODO: Refactor this old code. Remove legacy devices.
  */
-+ (MKDeviceType)deviceType {
-    NSString *platform = [self platformString];
-    
-    if ([platform isEqualToString:@"iPhone1,1"])    return MKDeviceTypePhone1G;
-    if ([platform isEqualToString:@"iPhone1,2"])    return MKDeviceTypePhone3G;
-    if ([platform isEqualToString:@"iPhone2,1"])    return MKDeviceTypePhone3GS;
-    if ([platform isEqualToString:@"iPhone3,1"])    return MKDeviceTypePhone4;
-    if ([platform isEqualToString:@"iPhone3,3"])    return MKDeviceTypePhone4Verizon;
-    if ([platform isEqualToString:@"iPod1,1"])      return MKDeviceTypePodTouch1G;
-    if ([platform isEqualToString:@"iPod2,1"])      return MKDeviceTypePodTouch2G;
-    if ([platform isEqualToString:@"iPod3,1"])      return MKDeviceTypePodTouch3G;
-    if ([platform isEqualToString:@"iPod4,1"])      return MKDeviceTypePodTouch4G;
-    if ([platform isEqualToString:@"iPad1,1"])      return MKDeviceTypePad1;
-    if ([platform isEqualToString:@"iPad2,1"])      return MKDeviceTypePad2Wifi;
-    if ([platform isEqualToString:@"iPad2,2"])      return MKDeviceTypePad2GSM;
-    if ([platform isEqualToString:@"iPad2,3"])      return MKDeviceTypePad2CDMA;
-    if ([platform isEqualToString:@"i386"])         return MKDeviceTypeSimulator;
-    if ([platform isEqualToString:@"x86_64"])       return MKDeviceTypeSimulator;
-    
-    return MKDeviceTypeUnknown;
++ (MKDeviceModel *)deviceModel {
+    NSString *identifier = [self modelIdentifier];
+    return [MKDeviceModel modelForIdentifier:identifier];
 }
 
 + (NSString *)deviceTypeString {
-    NSString *platform = [self platformString];
+    NSString *platform = [self modelIdentifier];
     
     if ([platform isEqualToString:@"iPhone1,1"])    return @"iPhone 1G";
     if ([platform isEqualToString:@"iPhone1,2"])    return @"iPhone 3G";
@@ -84,7 +67,7 @@
  source: http://stackoverflow.com/questions/7620229/how-can-i-get-iphone-device-type
  */
 
-+ (NSString *)platformString {
++ (NSString *)modelIdentifier {
     size_t size;
     sysctlbyname("hw.machine", NULL, &size, NULL, 0);
     char *machine = malloc(size);
