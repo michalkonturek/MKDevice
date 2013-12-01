@@ -19,10 +19,6 @@
 
 @implementation MKDeviceModelTests
 
-//- (void)test_modelForCode_for_all_models_iPhone4 {
-//
-//}
-
 - (void)test_modelForCode_for_all_codes {
     id models = @[@"iPhone4", @"iPhone4s", @"iPhone5", @"iPhone5c", @"iPhone5s"];
     id expected_results = @[@"iPhone 4", @"iPhone 4s", @"iPhone 5", @"iPhone 5c", @"iPhone 5s"];
@@ -37,14 +33,6 @@
         
         idx++;
     }
-    
-//    id input = @"iPhone5s";
-//    id expected = @"iPhone 5s";
-//    
-//    id model = [MKDeviceModel modelForCode:input];
-//    id result = [model name];
-//    
-//    assertThat(result, equalTo(expected));
 }
 
 - (void)test_modelForID_returns_iPhone4 {
