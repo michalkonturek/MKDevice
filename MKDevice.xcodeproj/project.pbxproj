@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7584704D00AA49E2A68DF141 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7652010CF9A3483CBE9583DB /* libPods.a */; };
 		903E0F9C18468DAC0066B085 /* MKDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = 903E0F9B18468DAC0066B085 /* MKDisk.m */; };
+		9084C9BE184B6C49006A7998 /* iPhone4.json in Resources */ = {isa = PBXBuildFile; fileRef = 9084C9BD184B6C49006A7998 /* iPhone4.json */; };
 		9086BBC1184527690034E692 /* MKProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086BBC0184527690034E692 /* MKProcessor.m */; };
 		9086BBC4184529870034E692 /* MKProcessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086BBC3184529870034E692 /* MKProcessInfo.m */; };
 		908E3FF118490FF900392CD8 /* MKBattery+RemainingTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 908E3FF018490FF900392CD8 /* MKBattery+RemainingTime.m */; };
@@ -55,6 +56,7 @@
 		903E0F9A18468DAC0066B085 /* MKDisk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDisk.h; sourceTree = "<group>"; };
 		903E0F9B18468DAC0066B085 /* MKDisk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDisk.m; sourceTree = "<group>"; };
 		904ECAB458864453809318EC /* libPods-MKDeviceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKDeviceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9084C9BD184B6C49006A7998 /* iPhone4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone4.json; sourceTree = "<group>"; };
 		9086BBBF184527690034E692 /* MKProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKProcessor.h; sourceTree = "<group>"; };
 		9086BBC0184527690034E692 /* MKProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKProcessor.m; sourceTree = "<group>"; };
 		9086BBC2184529870034E692 /* MKProcessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKProcessInfo.h; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		908E4000184A1F4C00392CD8 /* DeviceModels */ = {
 			isa = PBXGroup;
 			children = (
+				9084C9BD184B6C49006A7998 /* iPhone4.json */,
 				90C9AF62184AB7E50035177F /* iPhone4s.json */,
 				90A94497184AB488001EE189 /* iPhone5.json */,
 				90A94495184AAEED001EE189 /* iPhone5c.json */,
@@ -332,6 +335,7 @@
 				90F23E17183A513F009C86E5 /* InfoPlist.strings in Resources */,
 				90A94496184AAEED001EE189 /* iPhone5c.json in Resources */,
 				90A94498184AB488001EE189 /* iPhone5.json in Resources */,
+				9084C9BE184B6C49006A7998 /* iPhone4.json in Resources */,
 				90C9AF63184AB7E50035177F /* iPhone4s.json in Resources */,
 				90DD11AB183A828300184B8C /* ViewController.xib in Resources */,
 				90F23E1F183A513F009C86E5 /* Images.xcassets in Resources */,

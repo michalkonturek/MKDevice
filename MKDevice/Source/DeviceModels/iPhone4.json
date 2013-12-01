@@ -1,0 +1,19 @@
+{
+    "code": "iPhone4",
+    "name": "iPhone 4",
+    "slogan": "The most amazing iPhone yet.",
+    "identifiers": [
+        "iPhone3,1"
+        "iPhone3,2",
+        "iPhone3,3"
+    ],
+    "chipCPU": "Apple A4, 800 MHz",
+    "chipGPU": "PowerVR SGX 535",
+    "batteryTimeForAudioPlayback": 40,
+    "batteryTimeForVideoPlayback": 10,
+    "batteryTimeForStandby": 300,
+    "batteryTimeForInternetOn3G": 6,
+    "batteryTimeForInternetOnLTE": 0,
+    "batteryTimeForInternetOnWiFi": 10,
+    "batteryTimeForTalkOn3G": 7,
+}
