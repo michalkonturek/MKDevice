@@ -36,35 +36,70 @@
 //    
 //    assertThat(result, equalTo(expected));
 //}
+//
+//- (void)test_modelForCode_returns_iPhone5s {
+//    id input = @"iPhone5s";
+//    id expected = @"iPhone 5s";
+//    
+//    id model = [MKDeviceModel modelForCode:input];
+//    id result = [model name];
+//    
+//    assertThat(result, equalTo(expected));
+//}
 
-- (void)test_modelForCode_returns_iPhone5s {
-    id input = @"iPhone5s";
-    id expected = @"iPhone 5s";
+
+
+- (void)test_modelForID_returns_iPhone5 {
+    NSArray *identifiers = @[@"iPhone5,1", @"iPhone5,2"];
+    id expected = @"iPhone 5";
     
-    id model = [MKDeviceModel modelForCode:input];
-    id result = [model name];
-    
-    assertThat(result, equalTo(expected));
+    for (id identifier in identifiers) {
+        id model = [MKDeviceModel modelForID:identifier];
+        id result = [model name];
+        assertThat(result, equalTo(expected));
+    }
 }
 
-- (void)test_modelForID_returns_iPhone5s_when_ID_iPhone61 {
-    id identifier = @"iPhone6,1";
-    id expected = @"iPhone 5s";
+- (void)test_modelForID_returns_iPhone5c {
+    NSArray *identifiers = @[@"iPhone5,3", @"iPhone5,4"];
+    id expected = @"iPhone 5c";
     
-    id model = [MKDeviceModel modelForID:identifier];
-    id result = [model name];
-    
-    assertThat(result, equalTo(expected));
+    for (id identifier in identifiers) {
+        id model = [MKDeviceModel modelForID:identifier];
+        id result = [model name];
+        assertThat(result, equalTo(expected));
+    }
 }
 
-- (void)test_modelForID_returns_iPhone5s_when_ID_iPhone62 {
-    id identifier = @"iPhone6,2";
+- (void)test_modelForID_returns_iPhone5s {
+    NSArray *identifiers = @[@"iPhone6,1", @"iPhone6,2"];
     id expected = @"iPhone 5s";
     
-    id model = [MKDeviceModel modelForID:identifier];
-    id result = [model name];
-    
-    assertThat(result, equalTo(expected));
+    for (id identifier in identifiers) {
+        id model = [MKDeviceModel modelForID:identifier];
+        id result = [model name];
+        assertThat(result, equalTo(expected));
+    }
 }
+
+//- (void)test_modelForID_returns_iPhone5s_when_ID_iPhone61 {
+//    id identifier = @"iPhone6,1";
+//    id expected = @"iPhone 5s";
+//    
+//    id model = [MKDeviceModel modelForID:identifier];
+//    id result = [model name];
+//    
+//    assertThat(result, equalTo(expected));
+//}
+//
+//- (void)test_modelForID_returns_iPhone5s_when_ID_iPhone62 {
+//    id identifier = @"iPhone6,2";
+//    id expected = @"iPhone 5s";
+//    
+//    id model = [MKDeviceModel modelForID:identifier];
+//    id result = [model name];
+//    
+//    assertThat(result, equalTo(expected));
+//}
 
 @end
