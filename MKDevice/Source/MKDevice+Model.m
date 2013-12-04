@@ -1,17 +1,17 @@
 //
-//  MKDevice+Hardware.m
+//  MKDevice+Model.m
 //  MKDevice
 //
 //  Created by Michal Konturek on 29/11/2013.
 //  Copyright (c) 2013 Michal Konturek. All rights reserved.
 //
 
-#import "MKDevice+Hardware.h"
+#import "MKDevice+Model.h"
 
 #include <sys/types.h>
 #include <sys/sysctl.h>
 
-@implementation MKDevice (Hardware)
+@implementation MKDevice (Model)
 
 + (MKDeviceFamily)deviceFamily {
     NSString *modelIdentifier = [self deviceTypeString];

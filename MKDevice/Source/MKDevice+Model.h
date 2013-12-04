@@ -1,5 +1,5 @@
 //
-//  MKDevice+Hardware.h
+//  MKDevice+Model.h
 //  MKDevice
 //
 //  Created by Michal Konturek on 29/11/2013.
@@ -35,7 +35,7 @@ typedef enum _MKDeviceFamily {
     MKDeviceFamilyPod
 } MKDeviceFamily;
 
-@interface MKDevice (Hardware)
+@interface MKDevice (Model)
 
 + (MKDeviceFamily)deviceFamily;
 + (MKDeviceModel *)deviceModel;
