@@ -7,6 +7,20 @@
         "iPhone3,2",
         "iPhone3,3"
     ],
+    "models": [
+        {
+            "identifer": "iPhone3,1",
+            "name": "iPhone 4 GSM"
+        },
+        {
+            "identifer": "iPhone3,2",
+            "name": "iPhone 4 GSM (Rev A)"
+        },
+        {
+            "identifer": "iPhone3,3",
+            "name": "CDMA"
+        }
+    ],
     "chipCPU": "Apple A4, 800 MHz",
     "chipGPU": "PowerVR SGX 535",
     "batteryTimeForAudioPlayback": 40,

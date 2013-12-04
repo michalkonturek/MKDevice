@@ -5,6 +5,12 @@
     "identifiers": [
         "iPhone4,1"
     ],
+    "models": [
+        {
+            "identifer": "iPhone3,1",
+            "name": "iPhone 4s"
+        }
+    ],
     "chipCPU": "Apple A5, 800 MHz dual-core",
     "chipGPU": "PowerVR SGX543MP2",
     "batteryTimeForAudioPlayback": 40,
