@@ -1,11 +1,16 @@
 {
     "code": "iPhone5s",
     "name": "iPhone 5s",
+    "type": "iPhone",
     "slogan": "Forward thinking.",
     "identifiers": [
         "iPhone6,1",
         "iPhone6,2"
     ],
+    "models": {
+        "iPhone6,1": "GSM",
+        "iPhone6,2": "Global"
+    },
     "chipCPU": "Apple A7 64-bit, 1.3 GHz dual-core / M7 motion coprocessor",
     "chipGPU": "PowerVR G6430 (four cluster@200MHz)",
     "batteryTimeForAudioPlayback": 40,

@@ -1,5 +1,5 @@
 PODS:
-  - LINQ4Obj-C (1.0.1)
+  - LINQ4Obj-C (1.0.2)
   - MKFoundation (0.3.4):
     - LINQ4Obj-C (>= 1.0.0)
   - OCHamcrest (3.0.1)
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :git: https://github.com/michalkonturek/MKFoundation.git
 
 SPEC CHECKSUMS:
-  LINQ4Obj-C: f67a9c672ac74e00b14559502fa828c124e758d2
+  LINQ4Obj-C: ed14f6f00beb890f24e04d35f64ac6a7301c688b
   MKFoundation: 130eafb19ede2ef875c167c1889f1f30ebe7812e
   OCHamcrest: 782c52ae8c673e5d6060a65005cfd26d20d519ba
 

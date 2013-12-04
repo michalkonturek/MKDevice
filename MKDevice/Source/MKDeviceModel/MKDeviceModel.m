@@ -12,6 +12,8 @@
 
 #import "NSArray+MK_Block.h"
 
+#import "NSString+MK_Empty.h"
+
 static NSMutableArray *models = nil;
 
 @implementation MKDeviceModel
@@ -44,7 +46,14 @@ static NSMutableArray *models = nil;
         return (result != nil);
     }];
 
-    return (object) ? object : [self unknown];
+    if (!object) return [self unknown];
+    
+    [object setIdentifier:identifier];
+    return object;
+}
+
++ (NSString *)modelStringForIdentifier:(NSString *)identifier {
+    return [[self modelForIdentifier:identifier] description];
 }
 
 + (instancetype)simulator {
@@ -63,7 +72,11 @@ static NSMutableArray *models = nil;
     if (self = [super init]) {
         _code = [json objectForKey:@"code"];
         _name = [json objectForKey:@"name"];
+        _type = [json objectForKey:@"type"];
+        _slogan = [json objectForKey:@"slogan"];
+        _identifier = @"";
         _identifiers = [json objectForKey:@"identifiers"];
+        _models = [json objectForKey:@"models"];
         
         _chipCPU = [json objectForKey:@"chipCPU"];
         _chipGPU = [json objectForKey:@"chipGPU"];
@@ -84,6 +97,15 @@ static NSMutableArray *models = nil;
 
 - (instancetype)init {
     METHOD_USE_DESIGNATED_INIT
+}
+
+- (NSString *)description {
+    NSMutableString *result = [NSMutableString stringWithString:self.name];
+    
+    id version = [self.models objectForKey:self.identifier];
+    if (![NSString MK_isStringEmptyOrNil:version]) [result appendFormat:@" %@", version];
+    
+    return result;
 }
 
 @end

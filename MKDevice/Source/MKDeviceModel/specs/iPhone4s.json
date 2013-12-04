@@ -1,10 +1,14 @@
 {
     "code": "iPhone4s",
     "name": "iPhone 4s",
+    "type": "iPhone",
     "slogan": "The most amazing iPhone yet.",
     "identifiers": [
         "iPhone4,1"
     ],
+    "models": {
+        "iPhone4,1": ""
+    },
     "chipCPU": "Apple A5, 800 MHz dual-core",
     "chipGPU": "PowerVR SGX543MP2",
     "batteryTimeForAudioPlayback": 40,

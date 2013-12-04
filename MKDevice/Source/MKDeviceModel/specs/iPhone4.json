@@ -1,12 +1,18 @@
 {
     "code": "iPhone4",
     "name": "iPhone 4",
+    "type": "iPhone",
     "slogan": "The most amazing iPhone yet.",
     "identifiers": [
         "iPhone3,1",
         "iPhone3,2",
         "iPhone3,3"
     ],
+    "models": {
+        "iPhone3,1": "GSM",
+        "iPhone3,2": "GSM (Rev A)",
+        "iPhone3,3": "CDMA"
+    },
     "chipCPU": "Apple A4, 800 MHz",
     "chipGPU": "PowerVR SGX 535",
     "batteryTimeForAudioPlayback": 40,

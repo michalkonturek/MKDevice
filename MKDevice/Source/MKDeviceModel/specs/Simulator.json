@@ -1,8 +1,16 @@
 {
-    "code": "Unknown",
-    "name": "Unknown",
+    "code": "Simulator",
+    "name": "Simulator",
+    "type": "",
     "slogan": "",
-    "identifiers": [],
+    "identifiers": [
+        "i386",
+        "x86_64"
+    ],
+    "models": {
+        "i386": "i386",
+        "x86_64": "x86_64"
+    },
     "chipCPU": "",
     "chipGPU": "",
     "batteryTimeForAudioPlayback": 0,

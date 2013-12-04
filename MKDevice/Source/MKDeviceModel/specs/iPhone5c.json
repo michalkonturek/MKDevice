@@ -1,11 +1,16 @@
 {
     "code": "iPhone5c",
     "name": "iPhone 5c",
+    "type": "iPhone",
     "slogan": "For the colorful.",
     "identifiers": [
         "iPhone5,3",
         "iPhone5,4"
     ],
+    "models": {
+        "iPhone5,3": "GSM",
+        "iPhone5,4": "Global"
+    },
     "chipCPU": "Apple A6, 1.2 GHz dual-core",
     "chipGPU": "PowerVR SGX 543MP3 (triple-core graphics)",
     "batteryTimeForAudioPlayback": 40,
