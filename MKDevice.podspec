@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "MKDevice"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A convenience library for querying device and system information."
   s.homepage     = "https://github.com/michalkonturek/MKDevice"
   s.license      = 'MIT'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.source       = { 
     :git => "https://github.com/michalkonturek/MKDevice.git", 
-    :tag => "0.0.1" 
+    :tag => "0.0.2" 
   }
 
   s.source_files = 'MKDevice/Source/**/*.{h,m}'

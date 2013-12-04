@@ -1,1 +1,0 @@
-../../MKFoundation/MKFoundation/Source/NSData/NSData+MK.h

@@ -34,7 +34,7 @@
 }
 
 + (NSNumber *)powerLevel {
-    return [@([[UIDevice currentDevice] batteryLevel]) MK_multiplyBy:@100];
+    return [@([[UIDevice currentDevice] batteryLevel]) mk_multiplyBy:@100];
 }
 
 @end
