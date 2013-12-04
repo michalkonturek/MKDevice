@@ -19,4 +19,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MKDevice/Source/**/*.{h,m}'
   s.requires_arc = true
+
+  s.dependency 'MKFoundationKit', '>= 0.4.0'
 end
