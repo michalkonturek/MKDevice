@@ -13,7 +13,7 @@
 @implementation MKDisk
 
 + (NSNumber *)usedDiskSpaceInBytes {
-    return [[self totalDiskSpaceInBytes] MK_subtract:[self freeDiskSpaceInBytes]];
+    return [[self totalDiskSpaceInBytes] mk_subtract:[self freeDiskSpaceInBytes]];
 }
 
 + (NSNumber *)freeDiskSpaceInBytes {

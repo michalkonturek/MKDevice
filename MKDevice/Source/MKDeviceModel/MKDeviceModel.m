@@ -33,14 +33,14 @@ static NSMutableArray *models = nil;
 }
 
 + (instancetype)modelForCode:(NSString *)code {
-    return [models MK_match:^BOOL(MKDeviceModel *item) {
+    return [models mk_match:^BOOL(MKDeviceModel *item) {
         return [[item code] isEqualToString:code];
     }];
 }
 
 + (instancetype)modelForIdentifier:(NSString *)identifier {
-    id object = [models MK_match:^BOOL(id model) {
-        id result = [[model identifiers] MK_match:^BOOL(id item) {
+    id object = [models mk_match:^BOOL(id model) {
+        id result = [[model identifiers] mk_match:^BOOL(id item) {
             return [item isEqualToString:identifier];
         }];
         return (result != nil);
@@ -103,7 +103,7 @@ static NSMutableArray *models = nil;
     NSMutableString *result = [NSMutableString stringWithString:self.name];
     
     id version = [self.models objectForKey:self.identifier];
-    if (![NSString MK_isStringEmptyOrNil:version]) [result appendFormat:@" %@", version];
+    if (![NSString mk_isStringEmptyOrNil:version]) [result appendFormat:@" %@", version];
     
     return result;
 }

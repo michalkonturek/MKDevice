@@ -49,7 +49,7 @@
     if (kernReturn != KERN_SUCCESS) return @0;
     
     id result = @(vm_stat.free_count * vm_page_size);
-    result = [[result MK_divideBy:@1024] MK_divideBy:@1024];
+    result = [[result mk_divideBy:@1024] mk_divideBy:@1024];
     
     return result;
 }
@@ -73,8 +73,8 @@
 
 + (NSNumber *)totalMemory {
     id total_bytes = @([[NSProcessInfo processInfo] physicalMemory]);
-    id total_kilobytes = [total_bytes MK_divideBy:@1024];
-    return [total_kilobytes MK_divideBy:@1024];
+    id total_kilobytes = [total_bytes mk_divideBy:@1024];
+    return [total_kilobytes mk_divideBy:@1024];
 }
 
 + (NSNumber *)usedMemory {
