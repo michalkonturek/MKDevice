@@ -73,6 +73,7 @@ static NSMutableArray *models = nil;
     if (self = [super init]) {
         _code = [json objectForKey:@"code"];
         _name = [json objectForKey:@"name"];
+        _name = [json objectForKey:@"type"];
         _identifier = @"";
         _identifiers = [json objectForKey:@"identifiers"];
         _models = [json objectForKey:@"models"];

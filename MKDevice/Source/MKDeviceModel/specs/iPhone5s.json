@@ -1,6 +1,7 @@
 {
     "code": "iPhone5s",
     "name": "iPhone 5s",
+    "type": "iPhone",
     "slogan": "Forward thinking.",
     "identifiers": [
         "iPhone6,1",

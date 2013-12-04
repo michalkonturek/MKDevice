@@ -1,6 +1,7 @@
 {
     "code": "iPhone5",
     "name": "iPhone 5",
+    "type": "iPhone",
     "slogan": "Loving it is easy. That's why so many people do.",
     "identifiers": [
         "iPhone5,1",
