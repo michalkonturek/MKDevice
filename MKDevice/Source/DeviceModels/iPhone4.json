@@ -10,11 +10,11 @@
     "models": [
         {
             "identifer": "iPhone3,1",
-            "name": "iPhone 4 GSM"
+            "name": "GSM"
         },
         {
             "identifer": "iPhone3,2",
-            "name": "iPhone 4 GSM (Rev A)"
+            "name": "GSM (Rev A)"
         },
         {
             "identifer": "iPhone3,3",
