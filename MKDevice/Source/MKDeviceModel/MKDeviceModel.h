@@ -14,9 +14,11 @@
 
 + (instancetype)modelForCode:(NSString *)code;
 + (instancetype)modelForIdentifier:(NSString *)identifier;
++ (NSString *)modelStringForIdentifier:(NSString *)identifier;
 
 @property (nonatomic, strong) NSString *code;
 @property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *identifier;
 @property (nonatomic, strong) NSArray *identifiers;
 @property (nonatomic, strong) NSDictionary *models;
 

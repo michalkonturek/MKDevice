@@ -42,15 +42,18 @@
                     @{@"input": @"iPhone6,1", @"expected": @"iPhone 5s GSM"},
                     @{@"input": @"iPhone6,2", @"expected": @"iPhone 5s Global"},
                     @{@"input": @"i386", @"expected": @"Simulator i386"},
-                    @{@"input": @"x86_64", @"expected": @"Simulator x86_64"}
+                    @{@"input": @"x86_64", @"expected": @"Simulator x86_64"},
+                    @{@"input": @"Unknown", @"expected": @"Unknown"},
+                    @{@"input": @"iPhone2000", @"expected": @"Unknown"}
                     ];
     
     for (id fixture in fixtures) {
         id input = [fixture objectForKey:@"input"];
-        id expected = [fixture objectForKey:@"input"];
+        id expected = [fixture objectForKey:@"expected"];
         
-        id result = [MKDevice deviceModelString];
-        assertThat(result, expected);
+        id result = [MKDeviceModel modelStringForIdentifier:input];
+        
+        assertThat(result, equalTo(expected));
     }
 }
 
