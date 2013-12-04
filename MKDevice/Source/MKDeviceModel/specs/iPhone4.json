@@ -7,20 +7,11 @@
         "iPhone3,2",
         "iPhone3,3"
     ],
-    "models": [
-        {
-            "identifer": "iPhone3,1",
-            "name": "GSM"
-        },
-        {
-            "identifer": "iPhone3,2",
-            "name": "GSM (Rev A)"
-        },
-        {
-            "identifer": "iPhone3,3",
-            "name": "CDMA"
-        }
-    ],
+    "models": {
+        "iPhone3,1": "GSM",
+        "iPhone3,2": "GSM (Rev A)",
+        "iPhone3,3": "CDMA"
+    },
     "chipCPU": "Apple A4, 800 MHz",
     "chipGPU": "PowerVR SGX 535",
     "batteryTimeForAudioPlayback": 40,

@@ -6,16 +6,10 @@
         "iPhone6,1",
         "iPhone6,2"
     ],
-    "models": [
-        {
-            "identifer": "iPhone6,1",
-            "name": "GSM"
-        },
-        {
-            "identifer": "iPhone6,2",
-            "name": "Global"
-        }
-    ],
+    "models": {
+        "iPhone6,1": "GSM",
+        "iPhone6,2": "Global"
+    },
     "chipCPU": "Apple A7 64-bit, 1.3 GHz dual-core / M7 motion coprocessor",
     "chipGPU": "PowerVR G6430 (four cluster@200MHz)",
     "batteryTimeForAudioPlayback": 40,

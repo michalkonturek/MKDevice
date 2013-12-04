@@ -64,6 +64,7 @@ static NSMutableArray *models = nil;
         _code = [json objectForKey:@"code"];
         _name = [json objectForKey:@"name"];
         _identifiers = [json objectForKey:@"identifiers"];
+        _models = [json objectForKey:@"models"];
         
         _chipCPU = [json objectForKey:@"chipCPU"];
         _chipGPU = [json objectForKey:@"chipGPU"];

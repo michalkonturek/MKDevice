@@ -26,6 +26,13 @@
     return [MKDeviceModel modelForIdentifier:identifier];
 }
 
++ (NSString *)deviceModelString {
+    MKDeviceModel *model = [self deviceModel];
+    NSString *identifier = [self modelIdentifier];
+    return [NSString stringWithFormat:@"%@ %@",
+            model.name, [model.models objectForKey:identifier]];
+}
+
 + (NSString *)deviceTypeString {
     NSString *platform = [self modelIdentifier];
     

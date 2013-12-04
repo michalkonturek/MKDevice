@@ -39,8 +39,7 @@ typedef enum _MKDeviceFamily {
 
 + (MKDeviceFamily)deviceFamily;
 + (MKDeviceModel *)deviceModel;
-
-+ (NSString *)deviceTypeString;
++ (NSString *)deviceModelString;
 
 + (NSString *)modelIdentifier;
 

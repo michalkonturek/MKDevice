@@ -26,6 +26,7 @@
 		90ED0F31184F7E1300520865 /* iPhone5s.json in Resources */ = {isa = PBXBuildFile; fileRef = 90ED0F26184F7E1300520865 /* iPhone5s.json */; };
 		90ED0F32184F7E1300520865 /* Simulator.json in Resources */ = {isa = PBXBuildFile; fileRef = 90ED0F27184F7E1300520865 /* Simulator.json */; };
 		90ED0F33184F7E1300520865 /* Unknown.json in Resources */ = {isa = PBXBuildFile; fileRef = 90ED0F28184F7E1300520865 /* Unknown.json */; };
+		90ED0F35184F826000520865 /* MKDevice+Model_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90ED0F34184F826000520865 /* MKDevice+Model_Tests.m */; };
 		90F23E0D183A513F009C86E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F23E0C183A513F009C86E5 /* Foundation.framework */; };
 		90F23E0F183A513F009C86E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F23E0E183A513F009C86E5 /* CoreGraphics.framework */; };
 		90F23E11183A513F009C86E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F23E10183A513F009C86E5 /* UIKit.framework */; };
@@ -83,6 +84,7 @@
 		90ED0F26184F7E1300520865 /* iPhone5s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone5s.json; sourceTree = "<group>"; };
 		90ED0F27184F7E1300520865 /* Simulator.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Simulator.json; sourceTree = "<group>"; };
 		90ED0F28184F7E1300520865 /* Unknown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Unknown.json; sourceTree = "<group>"; };
+		90ED0F34184F826000520865 /* MKDevice+Model_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKDevice+Model_Tests.m"; sourceTree = "<group>"; };
 		90F23E09183A513F009C86E5 /* MKDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F23E0C183A513F009C86E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90F23E0E183A513F009C86E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -231,6 +233,7 @@
 			children = (
 				90F23E2C183A513F009C86E5 /* Supporting Files */,
 				908E4003184A966200392CD8 /* MKDeviceModelTests.m */,
+				90ED0F34184F826000520865 /* MKDevice+Model_Tests.m */,
 			);
 			path = MKDeviceTests;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				908E4004184A966200392CD8 /* MKDeviceModelTests.m in Sources */,
+				90ED0F35184F826000520865 /* MKDevice+Model_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

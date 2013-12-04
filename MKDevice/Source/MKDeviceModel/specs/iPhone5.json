@@ -6,16 +6,10 @@
         "iPhone5,1",
         "iPhone5,2"
     ],
-    "models": [
-        {
-            "identifer": "iPhone5,1",
-            "name": "GSM"
-        },
-        {
-            "identifer": "iPhone5,2",
-            "name": "Global"
-        }
-    ],
+    "models": {
+        "iPhone5,1": "GSM",
+        "iPhone5,2": "Global"
+    },
     "chipCPU": "Apple A6, 1.2 GHz dual-core",
     "chipGPU": "PowerVR SGX 543MP3 (triple-core graphics)",
     "batteryTimeForAudioPlayback": 40,

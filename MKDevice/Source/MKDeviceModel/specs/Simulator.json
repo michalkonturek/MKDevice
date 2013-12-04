@@ -6,16 +6,10 @@
         "i386",
         "x86_64"
     ],
-    "models": [
-        {
-            "identifer": "i386",
-            "name": "i386"
-        },
-        {
-            "identifer": "x86_64",
-            "name": "x86_64"
-        }
-    ],
+    "models": {
+        "i386": "i386",
+        "x86_64": "x86_64"
+    },
     "chipCPU": "",
     "chipGPU": "",
     "batteryTimeForAudioPlayback": 0,
