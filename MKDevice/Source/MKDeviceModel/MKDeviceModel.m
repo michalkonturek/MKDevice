@@ -50,7 +50,6 @@ static NSMutableArray *models = nil;
     
     [object setIdentifier:identifier];
     return object;
-//    return (object) ? object : [self unknown];
 }
 
 + (NSString *)modelStringForIdentifier:(NSString *)identifier {
@@ -73,7 +72,8 @@ static NSMutableArray *models = nil;
     if (self = [super init]) {
         _code = [json objectForKey:@"code"];
         _name = [json objectForKey:@"name"];
-        _name = [json objectForKey:@"type"];
+        _type = [json objectForKey:@"type"];
+        _slogan = [json objectForKey:@"slogan"];
         _identifier = @"";
         _identifiers = [json objectForKey:@"identifiers"];
         _models = [json objectForKey:@"models"];

@@ -19,6 +19,7 @@
 @property (nonatomic, strong) NSString *code;
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *type;
+@property (nonatomic, strong) NSString *slogan;
 @property (nonatomic, strong) NSString *identifier;
 @property (nonatomic, strong) NSArray *identifiers;
 @property (nonatomic, strong) NSDictionary *models;
