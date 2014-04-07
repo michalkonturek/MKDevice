@@ -1,37 +1,15 @@
 PODS:
-  - MKFoundationKit (1.2.2):
-    - MKFoundationKit/AutoDescribe
-    - MKFoundationKit/Base64
-    - MKFoundationKit/Block
-    - MKFoundationKit/NSArray
-    - MKFoundationKit/NSBundle
-    - MKFoundationKit/NSDate
-    - MKFoundationKit/NSDictionary
-    - MKFoundationKit/NSNumber
-    - MKFoundationKit/NSObject
-    - MKFoundationKit/NSSet
-    - MKFoundationKit/NSString
-    - MKFoundationKit/Queue
-    - MKFoundationKit/Stack
-  - MKFoundationKit/AutoDescribe (1.2.2)
   - MKFoundationKit/Base64 (1.2.2)
-  - MKFoundationKit/Block (1.2.2)
   - MKFoundationKit/NSArray (1.2.2)
-  - MKFoundationKit/NSBundle (1.2.2)
-  - MKFoundationKit/NSDate (1.2.2)
-  - MKFoundationKit/NSDictionary (1.2.2)
   - MKFoundationKit/NSNumber (1.2.2)
-  - MKFoundationKit/NSObject (1.2.2)
-  - MKFoundationKit/NSSet (1.2.2):
-    - MKFoundationKit/Block
   - MKFoundationKit/NSString (1.2.2):
     - MKFoundationKit/Base64
-  - MKFoundationKit/Queue (1.2.2)
-  - MKFoundationKit/Stack (1.2.2)
   - OCHamcrest (3.0.1)
 
 DEPENDENCIES:
-  - MKFoundationKit (>= 1.2.0)
+  - MKFoundationKit/NSArray (~> 1.2.0)
+  - MKFoundationKit/NSNumber (~> 1.2.0)
+  - MKFoundationKit/NSString (~> 1.2.0)
   - OCHamcrest (>= 3.0.0)
 
 SPEC CHECKSUMS:

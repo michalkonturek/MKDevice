@@ -1,6 +1,9 @@
 
 
-pod 'MKFoundationKit',  '>= 1.2.0'
+#pod 'MKFoundationKit',  '>= 1.2.0'
+pod 'MKFoundationKit/NSArray', '~> 1.2.0'
+pod 'MKFoundationKit/NSNumber', '~> 1.2.0'
+pod 'MKFoundationKit/NSString', '~> 1.2.0'
 
 target :MKDeviceTests, :exclusive => true do
     pod 'OCHamcrest',        '>= 3.0.0'

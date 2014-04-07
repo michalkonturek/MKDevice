@@ -28,7 +28,11 @@
 #import <mach/mach.h>
 #import <mach/mach_host.h>
 
-#import <MKFoundationKit/MKFoundationKit.h>
+#import <MKFoundationKit/NSNumber+MK.h>
+
+#define METHOD_NOT_IMPLEMENTED METHOD(@"%@: NOT IMPLEMENTED.")
+
+#define METHOD(MSG) @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:[NSString stringWithFormat:MSG, NSStringFromSelector(_cmd)] userInfo:nil];
 
 @implementation MKMemory
 

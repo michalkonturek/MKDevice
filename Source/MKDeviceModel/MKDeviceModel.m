@@ -25,11 +25,13 @@
 
 #import "MKDeviceModel.h"
 
-#import "MKMacro_Method.h"
-
 #import "NSArray+MK_Block.h"
 
-#import "NSString+MK_Empty.h"
+#import <MKFoundationKit/NSString+MK.h>
+
+#define METHOD_USE_DESIGNATED_INIT  METHOD(@"%@: Use designated initializer.")
+
+#define METHOD(MSG) @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:[NSString stringWithFormat:MSG, NSStringFromSelector(_cmd)] userInfo:nil];
 
 static NSMutableArray *models = nil;
 

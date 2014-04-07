@@ -25,7 +25,9 @@
 
 #import "MKBattery+RemainingTime.h"
 
-#import "MKMacro_Method.h"
+#define METHOD_NOT_IMPLEMENTED METHOD(@"%@: NOT IMPLEMENTED.")
+
+#define METHOD(MSG) @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:[NSString stringWithFormat:MSG, NSStringFromSelector(_cmd)] userInfo:nil];
 
 @implementation MKBattery (RemainingTime)
 
