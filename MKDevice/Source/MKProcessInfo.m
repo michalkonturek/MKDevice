@@ -11,7 +11,6 @@
 #import <mach/mach.h>
 #import <sys/sysctl.h>
 
-#import "MKMacros.h"
 #import "MKProcessInfo.h"
 
 

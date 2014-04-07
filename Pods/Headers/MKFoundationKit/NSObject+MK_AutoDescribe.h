@@ -1,1 +1,1 @@
-../../MKFoundationKit/MKFoundationKit/Source/NSObject/NSObject+MK_AutoDescribe.h
+../../MKFoundationKit/Source/NSObject/NSObject+MK_AutoDescribe.h

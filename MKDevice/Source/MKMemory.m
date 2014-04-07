@@ -11,7 +11,7 @@
 #import <mach/mach.h>
 #import <mach/mach_host.h>
 
-#import "MKFoundation.h"
+#import <MKFoundationKit/MKFoundationKit.h>
 
 @implementation MKMemory
 

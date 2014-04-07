@@ -1,1 +1,1 @@
-../../MKFoundationKit/MKFoundationKit/Source/NSString/NSString+MK_UUID.h
+../../MKFoundationKit/Source/NSString/NSString+MK_UUID.h

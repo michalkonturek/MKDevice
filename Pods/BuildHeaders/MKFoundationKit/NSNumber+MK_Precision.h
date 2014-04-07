@@ -1,1 +1,1 @@
-../../MKFoundationKit/MKFoundationKit/Source/NSNumber/NSNumber+MK_Precision.h
+../../MKFoundationKit/Source/NSNumber/NSNumber+MK_Precision.h

@@ -1,1 +1,1 @@
-../../MKFoundationKit/MKFoundationKit/Source/NSArray/NSMutableArray+MK_Stack.h
+../../MKFoundationKit/Source/NSArray/NSMutableArray+MK_Stack.h

@@ -1,1 +1,1 @@
-../../MKFoundationKit/MKFoundationKit/Source/NSNumber/NSNumber+MK_Fraction.h
+../../MKFoundationKit/Source/NSNumber/NSNumber+MK_Fraction.h

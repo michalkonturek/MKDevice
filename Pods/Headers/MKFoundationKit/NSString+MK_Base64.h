@@ -1,1 +1,1 @@
-../../MKFoundationKit/MKFoundationKit/Source/NSString/NSString+MK_Base64.h
+../../MKFoundationKit/Source/NSString/NSString+MK_Base64.h

@@ -1,1 +1,1 @@
-../../MKFoundationKit/MKFoundationKit/Source/NSDate/NSDate+MK.h
+../../MKFoundationKit/Source/NSDate/NSDate+MK.h

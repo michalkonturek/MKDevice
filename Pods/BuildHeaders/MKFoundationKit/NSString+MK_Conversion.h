@@ -1,1 +1,1 @@
-../../MKFoundationKit/MKFoundationKit/Source/NSString/NSString+MK_Conversion.h
+../../MKFoundationKit/Source/NSString/NSString+MK_Conversion.h

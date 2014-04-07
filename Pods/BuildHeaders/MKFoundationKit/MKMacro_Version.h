@@ -1,1 +1,1 @@
-../../MKFoundationKit/MKFoundationKit/Source/Macros/MKMacro_Version.h
+../../MKFoundationKit/Source/Macros/MKMacro_Version.h

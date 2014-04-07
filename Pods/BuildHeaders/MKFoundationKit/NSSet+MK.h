@@ -1,1 +1,1 @@
-../../MKFoundationKit/MKFoundationKit/Source/NSSet/NSSet+MK.h
+../../MKFoundationKit/Source/NSSet/NSSet+MK.h

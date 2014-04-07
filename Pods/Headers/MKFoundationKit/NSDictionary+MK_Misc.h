@@ -1,1 +1,1 @@
-../../MKFoundationKit/MKFoundationKit/Source/NSDictionary/NSDictionary+MK_Misc.h
+../../MKFoundationKit/Source/NSDictionary/NSDictionary+MK_Misc.h

@@ -1,16 +1,41 @@
 PODS:
-  - LINQ4Obj-C (1.0.2)
-  - MKFoundationKit (0.4.2):
-    - LINQ4Obj-C (>= 1.0.2)
+  - MKFoundationKit (1.2.2):
+    - MKFoundationKit/AutoDescribe
+    - MKFoundationKit/Base64
+    - MKFoundationKit/Block
+    - MKFoundationKit/NSArray
+    - MKFoundationKit/NSBundle
+    - MKFoundationKit/NSDate
+    - MKFoundationKit/NSDictionary
+    - MKFoundationKit/NSNumber
+    - MKFoundationKit/NSObject
+    - MKFoundationKit/NSSet
+    - MKFoundationKit/NSString
+    - MKFoundationKit/Queue
+    - MKFoundationKit/Stack
+  - MKFoundationKit/AutoDescribe (1.2.2)
+  - MKFoundationKit/Base64 (1.2.2)
+  - MKFoundationKit/Block (1.2.2)
+  - MKFoundationKit/NSArray (1.2.2)
+  - MKFoundationKit/NSBundle (1.2.2)
+  - MKFoundationKit/NSDate (1.2.2)
+  - MKFoundationKit/NSDictionary (1.2.2)
+  - MKFoundationKit/NSNumber (1.2.2)
+  - MKFoundationKit/NSObject (1.2.2)
+  - MKFoundationKit/NSSet (1.2.2):
+    - MKFoundationKit/Block
+  - MKFoundationKit/NSString (1.2.2):
+    - MKFoundationKit/Base64
+  - MKFoundationKit/Queue (1.2.2)
+  - MKFoundationKit/Stack (1.2.2)
   - OCHamcrest (3.0.1)
 
 DEPENDENCIES:
-  - MKFoundationKit (>= 0.4.2)
+  - MKFoundationKit (>= 1.2.0)
   - OCHamcrest (>= 3.0.0)
 
 SPEC CHECKSUMS:
-  LINQ4Obj-C: ed14f6f00beb890f24e04d35f64ac6a7301c688b
-  MKFoundationKit: 51041e3d6a143a234d8feeeebbca6c3ace073f61
+  MKFoundationKit: 7f203cb163a892826fa567842c441b1a13b4e70b
   OCHamcrest: 782c52ae8c673e5d6060a65005cfd26d20d519ba
 
-COCOAPODS: 0.28.0
+COCOAPODS: 0.31.1

@@ -1,1 +1,1 @@
-../../MKFoundationKit/MKFoundationKit/Source/NSNumber/NSNumber+MK_Comparison.h
+../../MKFoundationKit/Source/NSNumber/NSNumber+MK_Comparison.h

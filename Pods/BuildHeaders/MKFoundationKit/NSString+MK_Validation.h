@@ -1,1 +1,1 @@
-../../MKFoundationKit/MKFoundationKit/Source/NSString/NSString+MK_Validation.h
+../../MKFoundationKit/Source/NSString/NSString+MK_Validation.h
