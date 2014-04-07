@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		7584704D00AA49E2A68DF141 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7652010CF9A3483CBE9583DB /* libPods.a */; };
-		841AB8E018F2DB3300542A92 /* MKBattery+RemainingTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8C418F2DB3300542A92 /* MKBattery+RemainingTime.m */; };
-		841AB8E118F2DB3300542A92 /* MKBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8C618F2DB3300542A92 /* MKBattery.m */; };
-		841AB8E218F2DB3300542A92 /* MKCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8C818F2DB3300542A92 /* MKCarrier.m */; };
-		841AB8E318F2DB3300542A92 /* MKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8CA18F2DB3300542A92 /* MKDevice.m */; };
-		841AB8E418F2DB3300542A92 /* MKDevice+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8CD18F2DB3300542A92 /* MKDevice+Model.m */; };
-		841AB8E518F2DB3300542A92 /* MKDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8CF18F2DB3300542A92 /* MKDeviceModel.m */; };
-		841AB8E618F2DB3300542A92 /* iPhone4.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB8D118F2DB3300542A92 /* iPhone4.json */; };
-		841AB8E718F2DB3300542A92 /* iPhone4s.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB8D218F2DB3300542A92 /* iPhone4s.json */; };
-		841AB8E818F2DB3300542A92 /* iPhone5.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB8D318F2DB3300542A92 /* iPhone5.json */; };
-		841AB8E918F2DB3300542A92 /* iPhone5c.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB8D418F2DB3300542A92 /* iPhone5c.json */; };
-		841AB8EA18F2DB3300542A92 /* iPhone5s.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB8D518F2DB3300542A92 /* iPhone5s.json */; };
-		841AB8EB18F2DB3300542A92 /* Simulator.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB8D618F2DB3300542A92 /* Simulator.json */; };
-		841AB8EC18F2DB3300542A92 /* Unknown.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB8D718F2DB3300542A92 /* Unknown.json */; };
-		841AB8ED18F2DB3300542A92 /* MKDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8D918F2DB3300542A92 /* MKDisk.m */; };
-		841AB8EE18F2DB3300542A92 /* MKMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8DB18F2DB3300542A92 /* MKMemory.m */; };
-		841AB8EF18F2DB3300542A92 /* MKProcessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8DD18F2DB3300542A92 /* MKProcessInfo.m */; };
-		841AB8F018F2DB3300542A92 /* MKProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8DF18F2DB3300542A92 /* MKProcessor.m */; };
+		841AB91018F2DC0100542A92 /* MKBattery+RemainingTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8F418F2DC0100542A92 /* MKBattery+RemainingTime.m */; };
+		841AB91118F2DC0100542A92 /* MKBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8F618F2DC0100542A92 /* MKBattery.m */; };
+		841AB91218F2DC0100542A92 /* MKCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8F818F2DC0100542A92 /* MKCarrier.m */; };
+		841AB91318F2DC0100542A92 /* MKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8FA18F2DC0100542A92 /* MKDevice.m */; };
+		841AB91418F2DC0100542A92 /* MKDevice+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8FD18F2DC0100542A92 /* MKDevice+Model.m */; };
+		841AB91518F2DC0100542A92 /* MKDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB8FF18F2DC0100542A92 /* MKDeviceModel.m */; };
+		841AB91618F2DC0100542A92 /* iPhone4.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB90118F2DC0100542A92 /* iPhone4.json */; };
+		841AB91718F2DC0100542A92 /* iPhone4s.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB90218F2DC0100542A92 /* iPhone4s.json */; };
+		841AB91818F2DC0100542A92 /* iPhone5.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB90318F2DC0100542A92 /* iPhone5.json */; };
+		841AB91918F2DC0100542A92 /* iPhone5c.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB90418F2DC0100542A92 /* iPhone5c.json */; };
+		841AB91A18F2DC0100542A92 /* iPhone5s.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB90518F2DC0100542A92 /* iPhone5s.json */; };
+		841AB91B18F2DC0100542A92 /* Simulator.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB90618F2DC0100542A92 /* Simulator.json */; };
+		841AB91C18F2DC0100542A92 /* Unknown.json in Resources */ = {isa = PBXBuildFile; fileRef = 841AB90718F2DC0100542A92 /* Unknown.json */; };
+		841AB91D18F2DC0100542A92 /* MKDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB90918F2DC0100542A92 /* MKDisk.m */; };
+		841AB91E18F2DC0100542A92 /* MKMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB90B18F2DC0100542A92 /* MKMemory.m */; };
+		841AB91F18F2DC0100542A92 /* MKProcessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB90D18F2DC0100542A92 /* MKProcessInfo.m */; };
+		841AB92018F2DC0100542A92 /* MKProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 841AB90F18F2DC0100542A92 /* MKProcessor.m */; };
 		908E4004184A966200392CD8 /* MKDeviceModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 908E4003184A966200392CD8 /* MKDeviceModelTests.m */; };
 		90DD11AA183A828300184B8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD11A8183A828300184B8C /* ViewController.m */; };
 		90DD11AB183A828300184B8C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90DD11A9183A828300184B8C /* ViewController.xib */; };
@@ -56,33 +56,33 @@
 /* Begin PBXFileReference section */
 		7652010CF9A3483CBE9583DB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		814A0EAEC4AF4E5F8180226F /* Pods-MKDeviceTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKDeviceTests.xcconfig"; path = "Pods/Pods-MKDeviceTests.xcconfig"; sourceTree = "<group>"; };
-		841AB8C318F2DB3300542A92 /* MKBattery+RemainingTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKBattery+RemainingTime.h"; sourceTree = "<group>"; };
-		841AB8C418F2DB3300542A92 /* MKBattery+RemainingTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKBattery+RemainingTime.m"; sourceTree = "<group>"; };
-		841AB8C518F2DB3300542A92 /* MKBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBattery.h; sourceTree = "<group>"; };
-		841AB8C618F2DB3300542A92 /* MKBattery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBattery.m; sourceTree = "<group>"; };
-		841AB8C718F2DB3300542A92 /* MKCarrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCarrier.h; sourceTree = "<group>"; };
-		841AB8C818F2DB3300542A92 /* MKCarrier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCarrier.m; sourceTree = "<group>"; };
-		841AB8C918F2DB3300542A92 /* MKDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDevice.h; sourceTree = "<group>"; };
-		841AB8CA18F2DB3300542A92 /* MKDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDevice.m; sourceTree = "<group>"; };
-		841AB8CC18F2DB3300542A92 /* MKDevice+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKDevice+Model.h"; sourceTree = "<group>"; };
-		841AB8CD18F2DB3300542A92 /* MKDevice+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKDevice+Model.m"; sourceTree = "<group>"; };
-		841AB8CE18F2DB3300542A92 /* MKDeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDeviceModel.h; sourceTree = "<group>"; };
-		841AB8CF18F2DB3300542A92 /* MKDeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDeviceModel.m; sourceTree = "<group>"; };
-		841AB8D118F2DB3300542A92 /* iPhone4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone4.json; sourceTree = "<group>"; };
-		841AB8D218F2DB3300542A92 /* iPhone4s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone4s.json; sourceTree = "<group>"; };
-		841AB8D318F2DB3300542A92 /* iPhone5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone5.json; sourceTree = "<group>"; };
-		841AB8D418F2DB3300542A92 /* iPhone5c.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone5c.json; sourceTree = "<group>"; };
-		841AB8D518F2DB3300542A92 /* iPhone5s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone5s.json; sourceTree = "<group>"; };
-		841AB8D618F2DB3300542A92 /* Simulator.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Simulator.json; sourceTree = "<group>"; };
-		841AB8D718F2DB3300542A92 /* Unknown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Unknown.json; sourceTree = "<group>"; };
-		841AB8D818F2DB3300542A92 /* MKDisk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDisk.h; sourceTree = "<group>"; };
-		841AB8D918F2DB3300542A92 /* MKDisk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDisk.m; sourceTree = "<group>"; };
-		841AB8DA18F2DB3300542A92 /* MKMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMemory.h; sourceTree = "<group>"; };
-		841AB8DB18F2DB3300542A92 /* MKMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMemory.m; sourceTree = "<group>"; };
-		841AB8DC18F2DB3300542A92 /* MKProcessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKProcessInfo.h; sourceTree = "<group>"; };
-		841AB8DD18F2DB3300542A92 /* MKProcessInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKProcessInfo.m; sourceTree = "<group>"; };
-		841AB8DE18F2DB3300542A92 /* MKProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKProcessor.h; sourceTree = "<group>"; };
-		841AB8DF18F2DB3300542A92 /* MKProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKProcessor.m; sourceTree = "<group>"; };
+		841AB8F318F2DC0100542A92 /* MKBattery+RemainingTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKBattery+RemainingTime.h"; sourceTree = "<group>"; };
+		841AB8F418F2DC0100542A92 /* MKBattery+RemainingTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKBattery+RemainingTime.m"; sourceTree = "<group>"; };
+		841AB8F518F2DC0100542A92 /* MKBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBattery.h; sourceTree = "<group>"; };
+		841AB8F618F2DC0100542A92 /* MKBattery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBattery.m; sourceTree = "<group>"; };
+		841AB8F718F2DC0100542A92 /* MKCarrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCarrier.h; sourceTree = "<group>"; };
+		841AB8F818F2DC0100542A92 /* MKCarrier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCarrier.m; sourceTree = "<group>"; };
+		841AB8F918F2DC0100542A92 /* MKDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDevice.h; sourceTree = "<group>"; };
+		841AB8FA18F2DC0100542A92 /* MKDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDevice.m; sourceTree = "<group>"; };
+		841AB8FC18F2DC0100542A92 /* MKDevice+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKDevice+Model.h"; sourceTree = "<group>"; };
+		841AB8FD18F2DC0100542A92 /* MKDevice+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKDevice+Model.m"; sourceTree = "<group>"; };
+		841AB8FE18F2DC0100542A92 /* MKDeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDeviceModel.h; sourceTree = "<group>"; };
+		841AB8FF18F2DC0100542A92 /* MKDeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDeviceModel.m; sourceTree = "<group>"; };
+		841AB90118F2DC0100542A92 /* iPhone4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone4.json; sourceTree = "<group>"; };
+		841AB90218F2DC0100542A92 /* iPhone4s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone4s.json; sourceTree = "<group>"; };
+		841AB90318F2DC0100542A92 /* iPhone5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone5.json; sourceTree = "<group>"; };
+		841AB90418F2DC0100542A92 /* iPhone5c.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone5c.json; sourceTree = "<group>"; };
+		841AB90518F2DC0100542A92 /* iPhone5s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iPhone5s.json; sourceTree = "<group>"; };
+		841AB90618F2DC0100542A92 /* Simulator.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Simulator.json; sourceTree = "<group>"; };
+		841AB90718F2DC0100542A92 /* Unknown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Unknown.json; sourceTree = "<group>"; };
+		841AB90818F2DC0100542A92 /* MKDisk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDisk.h; sourceTree = "<group>"; };
+		841AB90918F2DC0100542A92 /* MKDisk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDisk.m; sourceTree = "<group>"; };
+		841AB90A18F2DC0100542A92 /* MKMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMemory.h; sourceTree = "<group>"; };
+		841AB90B18F2DC0100542A92 /* MKMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMemory.m; sourceTree = "<group>"; };
+		841AB90C18F2DC0100542A92 /* MKProcessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKProcessInfo.h; sourceTree = "<group>"; };
+		841AB90D18F2DC0100542A92 /* MKProcessInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKProcessInfo.m; sourceTree = "<group>"; };
+		841AB90E18F2DC0100542A92 /* MKProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKProcessor.h; sourceTree = "<group>"; };
+		841AB90F18F2DC0100542A92 /* MKProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKProcessor.m; sourceTree = "<group>"; };
 		904ECAB458864453809318EC /* libPods-MKDeviceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKDeviceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908E4003184A966200392CD8 /* MKDeviceModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKDeviceModelTests.m; sourceTree = "<group>"; };
 		90DD11A7183A828300184B8C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -133,60 +133,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		841AB8C118F2DB3300542A92 /* Source */ = {
+		841AB8F118F2DC0100542A92 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				841AB8C218F2DB3300542A92 /* MKBattery */,
-				841AB8C718F2DB3300542A92 /* MKCarrier.h */,
-				841AB8C818F2DB3300542A92 /* MKCarrier.m */,
-				841AB8C918F2DB3300542A92 /* MKDevice.h */,
-				841AB8CA18F2DB3300542A92 /* MKDevice.m */,
-				841AB8CB18F2DB3300542A92 /* MKDeviceModel */,
-				841AB8D818F2DB3300542A92 /* MKDisk.h */,
-				841AB8D918F2DB3300542A92 /* MKDisk.m */,
-				841AB8DA18F2DB3300542A92 /* MKMemory.h */,
-				841AB8DB18F2DB3300542A92 /* MKMemory.m */,
-				841AB8DC18F2DB3300542A92 /* MKProcessInfo.h */,
-				841AB8DD18F2DB3300542A92 /* MKProcessInfo.m */,
-				841AB8DE18F2DB3300542A92 /* MKProcessor.h */,
-				841AB8DF18F2DB3300542A92 /* MKProcessor.m */,
+				841AB8F218F2DC0100542A92 /* MKBattery */,
+				841AB8F718F2DC0100542A92 /* MKCarrier.h */,
+				841AB8F818F2DC0100542A92 /* MKCarrier.m */,
+				841AB8F918F2DC0100542A92 /* MKDevice.h */,
+				841AB8FA18F2DC0100542A92 /* MKDevice.m */,
+				841AB8FB18F2DC0100542A92 /* MKDeviceModel */,
+				841AB90818F2DC0100542A92 /* MKDisk.h */,
+				841AB90918F2DC0100542A92 /* MKDisk.m */,
+				841AB90A18F2DC0100542A92 /* MKMemory.h */,
+				841AB90B18F2DC0100542A92 /* MKMemory.m */,
+				841AB90C18F2DC0100542A92 /* MKProcessInfo.h */,
+				841AB90D18F2DC0100542A92 /* MKProcessInfo.m */,
+				841AB90E18F2DC0100542A92 /* MKProcessor.h */,
+				841AB90F18F2DC0100542A92 /* MKProcessor.m */,
 			);
-			path = Source;
-			sourceTree = SOURCE_ROOT;
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
 		};
-		841AB8C218F2DB3300542A92 /* MKBattery */ = {
+		841AB8F218F2DC0100542A92 /* MKBattery */ = {
 			isa = PBXGroup;
 			children = (
-				841AB8C318F2DB3300542A92 /* MKBattery+RemainingTime.h */,
-				841AB8C418F2DB3300542A92 /* MKBattery+RemainingTime.m */,
-				841AB8C518F2DB3300542A92 /* MKBattery.h */,
-				841AB8C618F2DB3300542A92 /* MKBattery.m */,
+				841AB8F318F2DC0100542A92 /* MKBattery+RemainingTime.h */,
+				841AB8F418F2DC0100542A92 /* MKBattery+RemainingTime.m */,
+				841AB8F518F2DC0100542A92 /* MKBattery.h */,
+				841AB8F618F2DC0100542A92 /* MKBattery.m */,
 			);
 			path = MKBattery;
 			sourceTree = "<group>";
 		};
-		841AB8CB18F2DB3300542A92 /* MKDeviceModel */ = {
+		841AB8FB18F2DC0100542A92 /* MKDeviceModel */ = {
 			isa = PBXGroup;
 			children = (
-				841AB8CC18F2DB3300542A92 /* MKDevice+Model.h */,
-				841AB8CD18F2DB3300542A92 /* MKDevice+Model.m */,
-				841AB8CE18F2DB3300542A92 /* MKDeviceModel.h */,
-				841AB8CF18F2DB3300542A92 /* MKDeviceModel.m */,
-				841AB8D018F2DB3300542A92 /* specs */,
+				841AB8FC18F2DC0100542A92 /* MKDevice+Model.h */,
+				841AB8FD18F2DC0100542A92 /* MKDevice+Model.m */,
+				841AB8FE18F2DC0100542A92 /* MKDeviceModel.h */,
+				841AB8FF18F2DC0100542A92 /* MKDeviceModel.m */,
+				841AB90018F2DC0100542A92 /* specs */,
 			);
 			path = MKDeviceModel;
 			sourceTree = "<group>";
 		};
-		841AB8D018F2DB3300542A92 /* specs */ = {
+		841AB90018F2DC0100542A92 /* specs */ = {
 			isa = PBXGroup;
 			children = (
-				841AB8D118F2DB3300542A92 /* iPhone4.json */,
-				841AB8D218F2DB3300542A92 /* iPhone4s.json */,
-				841AB8D318F2DB3300542A92 /* iPhone5.json */,
-				841AB8D418F2DB3300542A92 /* iPhone5c.json */,
-				841AB8D518F2DB3300542A92 /* iPhone5s.json */,
-				841AB8D618F2DB3300542A92 /* Simulator.json */,
-				841AB8D718F2DB3300542A92 /* Unknown.json */,
+				841AB90118F2DC0100542A92 /* iPhone4.json */,
+				841AB90218F2DC0100542A92 /* iPhone4s.json */,
+				841AB90318F2DC0100542A92 /* iPhone5.json */,
+				841AB90418F2DC0100542A92 /* iPhone5c.json */,
+				841AB90518F2DC0100542A92 /* iPhone5s.json */,
+				841AB90618F2DC0100542A92 /* Simulator.json */,
+				841AB90718F2DC0100542A92 /* Unknown.json */,
 			);
 			path = specs;
 			sourceTree = "<group>";
@@ -228,7 +229,7 @@
 		90F23E12183A513F009C86E5 /* MKDevice */ = {
 			isa = PBXGroup;
 			children = (
-				841AB8C118F2DB3300542A92 /* Source */,
+				841AB8F118F2DC0100542A92 /* Source */,
 				90F23E3B183A5262009C86E5 /* Demo */,
 				90F23E1B183A513F009C86E5 /* AppDelegate.h */,
 				90F23E1C183A513F009C86E5 /* AppDelegate.m */,
@@ -357,16 +358,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841AB8EA18F2DB3300542A92 /* iPhone5s.json in Resources */,
+				841AB91A18F2DC0100542A92 /* iPhone5s.json in Resources */,
 				90F23E17183A513F009C86E5 /* InfoPlist.strings in Resources */,
-				841AB8EC18F2DB3300542A92 /* Unknown.json in Resources */,
-				841AB8E718F2DB3300542A92 /* iPhone4s.json in Resources */,
-				841AB8E818F2DB3300542A92 /* iPhone5.json in Resources */,
+				841AB91C18F2DC0100542A92 /* Unknown.json in Resources */,
+				841AB91718F2DC0100542A92 /* iPhone4s.json in Resources */,
+				841AB91818F2DC0100542A92 /* iPhone5.json in Resources */,
 				90DD11AB183A828300184B8C /* ViewController.xib in Resources */,
-				841AB8E918F2DB3300542A92 /* iPhone5c.json in Resources */,
+				841AB91918F2DC0100542A92 /* iPhone5c.json in Resources */,
 				90F23E1F183A513F009C86E5 /* Images.xcassets in Resources */,
-				841AB8EB18F2DB3300542A92 /* Simulator.json in Resources */,
-				841AB8E618F2DB3300542A92 /* iPhone4.json in Resources */,
+				841AB91B18F2DC0100542A92 /* Simulator.json in Resources */,
+				841AB91618F2DC0100542A92 /* iPhone4.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,18 +450,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				90F23E1D183A513F009C86E5 /* AppDelegate.m in Sources */,
-				841AB8EF18F2DB3300542A92 /* MKProcessInfo.m in Sources */,
-				841AB8E118F2DB3300542A92 /* MKBattery.m in Sources */,
-				841AB8ED18F2DB3300542A92 /* MKDisk.m in Sources */,
+				841AB91F18F2DC0100542A92 /* MKProcessInfo.m in Sources */,
+				841AB91118F2DC0100542A92 /* MKBattery.m in Sources */,
+				841AB91D18F2DC0100542A92 /* MKDisk.m in Sources */,
 				90F23E19183A513F009C86E5 /* main.m in Sources */,
 				90DD11AA183A828300184B8C /* ViewController.m in Sources */,
-				841AB8E218F2DB3300542A92 /* MKCarrier.m in Sources */,
-				841AB8F018F2DB3300542A92 /* MKProcessor.m in Sources */,
-				841AB8E318F2DB3300542A92 /* MKDevice.m in Sources */,
-				841AB8E018F2DB3300542A92 /* MKBattery+RemainingTime.m in Sources */,
-				841AB8E518F2DB3300542A92 /* MKDeviceModel.m in Sources */,
-				841AB8E418F2DB3300542A92 /* MKDevice+Model.m in Sources */,
-				841AB8EE18F2DB3300542A92 /* MKMemory.m in Sources */,
+				841AB91218F2DC0100542A92 /* MKCarrier.m in Sources */,
+				841AB92018F2DC0100542A92 /* MKProcessor.m in Sources */,
+				841AB91318F2DC0100542A92 /* MKDevice.m in Sources */,
+				841AB91018F2DC0100542A92 /* MKBattery+RemainingTime.m in Sources */,
+				841AB91518F2DC0100542A92 /* MKDeviceModel.m in Sources */,
+				841AB91418F2DC0100542A92 /* MKDevice+Model.m in Sources */,
+				841AB91E18F2DC0100542A92 /* MKMemory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
