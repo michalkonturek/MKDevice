@@ -1,0 +1,19 @@
+PODS:
+  - MKFoundationKit/Base64 (1.2.2)
+  - MKFoundationKit/NSArray (1.2.2)
+  - MKFoundationKit/NSNumber (1.2.2)
+  - MKFoundationKit/NSString (1.2.2):
+    - MKFoundationKit/Base64
+  - OCHamcrest (3.0.1)
+
+DEPENDENCIES:
+  - MKFoundationKit/NSArray (~> 1.2.0)
+  - MKFoundationKit/NSNumber (~> 1.2.0)
+  - MKFoundationKit/NSString (~> 1.2.0)
+  - OCHamcrest (>= 3.0.0)
+
+SPEC CHECKSUMS:
+  MKFoundationKit: 7f203cb163a892826fa567842c441b1a13b4e70b
+  OCHamcrest: 782c52ae8c673e5d6060a65005cfd26d20d519ba
+
+COCOAPODS: 0.31.1

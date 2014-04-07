@@ -1,0 +1,1 @@
+../../MKFoundationKit/Source/NSString/NSString+MK_Base64.h
